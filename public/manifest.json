@@ -1,0 +1,23 @@
+{
+  "name": "Calendario de Producción · Ferralia",
+  "short_name": "Cal. Producción",
+  "description": "Calendario de producción y transportes Ferralia",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0f2f5",
+  "theme_color": "#2563eb",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

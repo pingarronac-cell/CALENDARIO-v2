@@ -1,0 +1,2135 @@
+[
+  {
+    "codigo": "430008-0001",
+    "codCliente": "430008",
+    "cliente": "FCC CONSTRUCCION S.A.",
+    "nombre": "3W61 - E. FORUM JUSTICIA TGN",
+    "label": "430008-0001 FCC CONSTRUCCION S.A. - 3W61 - E. FORUM JUSTICIA TGN",
+    "direccion": "CAMÍ V FRANCOLI, 2 TARRAGONA, 43120, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430009-0001",
+    "codCliente": "430009",
+    "cliente": "DRAGADOS S.A.",
+    "nombre": "224-718 126 VIV NEINOR ESPLUGUES",
+    "label": "430009-0001 DRAGADOS S.A. - 224-718 126 VIV NEINOR ESPLUGUES",
+    "direccion": "Calle Sant Jordi esq. calle del Carme - ESPLUGUES, Esplugues de Llobregat., BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430009-0002",
+    "codCliente": "430009",
+    "cliente": "DRAGADOS S.A.",
+    "nombre": "224-717 C.C.TERMINAL G ROYAL CARIBBEAN PORT BARCEL",
+    "label": "430009-0002 DRAGADOS S.A. - 224-717 C.C.TERMINAL G ROYAL CARIBBEAN PORT BARCEL",
+    "direccion": "Muelle adosado 3 Terminal G Port de Barcelona., 08039, Barcelona, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430012-0001",
+    "codCliente": "430012",
+    "cliente": "OHLA",
+    "nombre": "108496 53 VIV C/ PARE PEREZ DEL PULGAR - BARCELONA",
+    "label": "430012-0001 OHLA - 108496 53 VIV C/ PARE PEREZ DEL PULGAR - BARCELONA",
+    "direccion": "C/ PARE PEREZ DEL PULGAR, 2-5, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430014-0001",
+    "codCliente": "430014",
+    "cliente": "FERROVIAL CONSTRUCCION, S.A.",
+    "nombre": "CI0W - 142 VDAS NOUVALLPARADIS - TERRASSA",
+    "label": "430014-0001 FERROVIAL CONSTRUCCION, S.A. - CI0W - 142 VDAS NOUVALLPARADIS - TERRASSA",
+    "direccion": "Crta.Rubí 223 esq.Avenida Santa Eulalia(Terrassa), BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430014-0002",
+    "codCliente": "430014",
+    "cliente": "FERROVIAL CONSTRUCCION, S.A.",
+    "nombre": "C97N - LA SINIA MARTORELL MODIF RAMPAS",
+    "label": "430014-0002 FERROVIAL CONSTRUCCION, S.A. - C97N - LA SINIA MARTORELL MODIF RAMPAS",
+    "direccion": "J. PUIG I CADAFALCH esq SALVADOR ESTEVE - MARTOREL, MARTORELL    https://maps.app.goo.gl/SRF59cR9CL9Kt, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430014-0003",
+    "codCliente": "430014",
+    "cliente": "FERROVIAL CONSTRUCCION, S.A.",
+    "nombre": "50CG0L - HOSP. HM SANT JORDI BCN",
+    "label": "430014-0003 FERROVIAL CONSTRUCCION, S.A. - 50CG0L - HOSP. HM SANT JORDI BCN",
+    "direccion": "Plaça de l'Estació,12,Barcelona(Barri St.Andreu), BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430047-0001",
+    "codCliente": "430047",
+    "cliente": "ACCIONA CONSTRUCCION, S.A.",
+    "nombre": "ARQUETA 4 Y ARQUETA 5",
+    "label": "430047-0001 ACCIONA CONSTRUCCION, S.A. - ARQUETA 4 Y ARQUETA 5",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430047-0002",
+    "codCliente": "430047",
+    "cliente": "ACCIONA CONSTRUCCION, S.A.",
+    "nombre": "B9043 INTEGRACION FERROCARRIL SANT FELIU",
+    "label": "430047-0002 ACCIONA CONSTRUCCION, S.A. - B9043 INTEGRACION FERROCARRIL SANT FELIU",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430047-0003",
+    "codCliente": "430047",
+    "cliente": "ACCIONA CONSTRUCCION, S.A.",
+    "nombre": "C3012 REMODELACION ESTACION CASTELLDEFELS",
+    "label": "430047-0003 ACCIONA CONSTRUCCION, S.A. - C3012 REMODELACION ESTACION CASTELLDEFELS",
+    "direccion": "Av. de la Constitució, 213, 08860 Castelldefels, 08860, Castelldefels, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430047-0004",
+    "codCliente": "430047",
+    "cliente": "ACCIONA CONSTRUCCION, S.A.",
+    "nombre": "C3032 AEG TERRASSA - PARCELA 3",
+    "label": "430047-0004 ACCIONA CONSTRUCCION, S.A. - C3032 AEG TERRASSA - PARCELA 3",
+    "direccion": "Calle Periodista Grané nº80 Terrassa, Terrasa, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430047-0005",
+    "codCliente": "430047",
+    "cliente": "ACCIONA CONSTRUCCION, S.A.",
+    "nombre": "C3058 263 VVDAS LA MARINA",
+    "label": "430047-0005 ACCIONA CONSTRUCCION, S.A. - C3058 263 VVDAS LA MARINA",
+    "direccion": "CARRER ACER, 34, 08038, BARCELONA (ZONA FRANCA), BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430047-0006",
+    "codCliente": "430047",
+    "cliente": "ACCIONA CONSTRUCCION, S.A.",
+    "nombre": "B9043 INTEGRACION FERROCARRIL SANT FELIU",
+    "label": "430047-0006 ACCIONA CONSTRUCCION, S.A. - B9043 INTEGRACION FERROCARRIL SANT FELIU",
+    "direccion": "C/JOSEP TARRADELLAS, 21 (ST.FELIU LL.), BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430114-0001",
+    "codCliente": "430114",
+    "cliente": "SACYR CONSTRUCCION, S.A.U.",
+    "nombre": "3000589 RESIDENCIA UNIVERSITARIA MERIDIANA",
+    "label": "430114-0001 SACYR CONSTRUCCION, S.A.U. - 3000589 RESIDENCIA UNIVERSITARIA MERIDIANA",
+    "direccion": "C/Concepcion Arenal nº176 Barcelona 08027, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430204-0001",
+    "codCliente": "430204",
+    "cliente": "CLIENTES VARIOS",
+    "nombre": "VARIOS",
+    "label": "430204-0001 CLIENTES VARIOS - VARIOS",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430218-0001",
+    "codCliente": "430218",
+    "cliente": "CONSTRUCTORA SAN JOSE SA",
+    "nombre": "081189 RES EST PARAL·LEL ALBA SPANISH PROPCO 1 BCN",
+    "label": "430218-0001 CONSTRUCTORA SAN JOSE SA - 081189 RES EST PARAL·LEL ALBA SPANISH PROPCO 1 BCN",
+    "direccion": "Av. del Paral.lel, 25-37 -- Barcelona, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430218-0002",
+    "codCliente": "430218",
+    "cliente": "CONSTRUCTORA SAN JOSE SA",
+    "nombre": "081194 30 VIV ALSEGRE ARQURA HOMES FAB LLEIDA",
+    "label": "430218-0002 CONSTRUCTORA SAN JOSE SA - 081194 30 VIV ALSEGRE ARQURA HOMES FAB LLEIDA",
+    "direccion": "C/  de  Teresa Pàmies, Lleida, 25001, LLEIDA, LLEIDA",
+    "provincia": "LLEIDA"
+  },
+  {
+    "codigo": "430218-0003",
+    "codCliente": "430218",
+    "cliente": "CONSTRUCTORA SAN JOSE SA",
+    "nombre": "081193 HABITAT SALA BADRINAS 103 VIV TERRASSA",
+    "label": "430218-0003 CONSTRUCTORA SAN JOSE SA - 081193 HABITAT SALA BADRINAS 103 VIV TERRASSA",
+    "direccion": "Carretera de Rubi, 108 - TERRASSA, 08223, Terrassa, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430230-0001",
+    "codCliente": "430230",
+    "cliente": "ITERCON",
+    "nombre": "O2504 NAVE LOGISTICA ACTION SCANNELL",
+    "label": "430230-0001 ITERCON - O2504 NAVE LOGISTICA ACTION SCANNELL",
+    "direccion": "Calle A el Poet \"Pol.Ind.el Poet\" Banyeres Penedes, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430232-0001",
+    "codCliente": "430232",
+    "cliente": "COMSA SAU",
+    "nombre": "CM02602/00 RENOVACIO ABASTAMENT A MASQUE",
+    "label": "430232-0001 COMSA SAU - CM02602/00 RENOVACIO ABASTAMENT A MASQUE",
+    "direccion": "08783, MASQUEFA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430232-0002",
+    "codCliente": "430232",
+    "cliente": "COMSA SAU",
+    "nombre": "CM02593/00 TERMINAL - NAVE CAN TUNIS",
+    "label": "430232-0002 COMSA SAU - CM02593/00 TERMINAL - NAVE CAN TUNIS",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430232-0003",
+    "codCliente": "430232",
+    "cliente": "COMSA SAU",
+    "nombre": "CM02607/00 EMERGENCIA TUNEL 101 GARRAF",
+    "label": "430232-0003 COMSA SAU - CM02607/00 EMERGENCIA TUNEL 101 GARRAF",
+    "direccion": "Oficinas COMSA Plaça Mestre Ventura i Tort, 4, 08820, El Prat de Llobregat, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430252-0001",
+    "codCliente": "430252",
+    "cliente": "CHM",
+    "nombre": "H02203 ADEC.TUNELES STA.COLOMA PALLARESA TIANA TEL",
+    "label": "430252-0001 CHM - H02203 ADEC.TUNELES STA.COLOMA PALLARESA TIANA TEL",
+    "direccion": "https://maps.app.goo.gl/rASc316RxJ3vHtUA7, BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430288-0001",
+    "codCliente": "430288",
+    "cliente": "VOPI-4",
+    "nombre": "52411 LOVHOMS - VIVENDES CERDANYOLA",
+    "label": "430288-0001 VOPI-4 - 52411 LOVHOMS - VIVENDES CERDANYOLA",
+    "direccion": "C/Sant Francesc, 28, 08290, Cerdanyola del Vallès, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430288-0002",
+    "codCliente": "430288",
+    "cliente": "VOPI-4",
+    "nombre": "52415 ESTEVE QUIMICA - CELRA",
+    "label": "430288-0002 VOPI-4 - 52415 ESTEVE QUIMICA - CELRA",
+    "direccion": "c/Aumet esquina c/del Ter, Celra (Girona), CELRA, GIRONA",
+    "provincia": "GIRONA"
+  },
+  {
+    "codigo": "430288-0003",
+    "codCliente": "430288",
+    "cliente": "VOPI-4",
+    "nombre": "52511 - NEINOR AREA MONTESA ESPLUGUES",
+    "label": "430288-0003 VOPI-4 - 52511 - NEINOR AREA MONTESA ESPLUGUES",
+    "direccion": "es C/ Sant Gabriel s/n Esplugues de Llobregat., Esplugues de Llobregat., BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430288-0004",
+    "codCliente": "430288",
+    "cliente": "VOPI-4",
+    "nombre": "52505 HMB - VIVIENDAS LA SAGRERA",
+    "label": "430288-0004 VOPI-4 - 52505 HMB - VIVIENDAS LA SAGRERA",
+    "direccion": "GRAN DE LA SAGRERA, 52 BARCELONA, BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430288-0005",
+    "codCliente": "430288",
+    "cliente": "VOPI-4",
+    "nombre": "52409 C.E. LAIETA - REHABILITACIO PISCINA",
+    "label": "430288-0005 VOPI-4 - 52409 C.E. LAIETA - REHABILITACIO PISCINA",
+    "direccion": "C/ Pintor Ribalta 2-8 Barcelona, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430288-0006",
+    "codCliente": "430288",
+    "cliente": "VOPI-4",
+    "nombre": "52505 HMB - VIVIENDAS LA SAGRERA (VENTA)",
+    "label": "430288-0006 VOPI-4 - 52505 HMB - VIVIENDAS LA SAGRERA (VENTA)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430288-0007",
+    "codCliente": "430288",
+    "cliente": "VOPI-4",
+    "nombre": "52412 - AELCA VIVIENDAS TIANA",
+    "label": "430288-0007 VOPI-4 - 52412 - AELCA VIVIENDAS TIANA",
+    "direccion": "C/ NEUS CATALA 12 -   TIANA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430330-0001",
+    "codCliente": "430330",
+    "cliente": "JOSE ANTONIO ROMERO POLO S.A.U.",
+    "nombre": "R2084 URBANIZACION SELVA DE MAR",
+    "label": "430330-0001 JOSE ANTONIO ROMERO POLO S.A.U. - R2084 URBANIZACION SELVA DE MAR",
+    "direccion": "c/ Selva de Mar 115 - barcelona, Barcelona, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430349-0001",
+    "codCliente": "430349",
+    "cliente": "PACADAR, SA",
+    "nombre": "PG240E PRELOBAR",
+    "label": "430349-0001 PACADAR, SA - PG240E PRELOBAR",
+    "direccion": "Diseminado Finca el Soler, 2,08650 Sallent, 08650, Cabrianes - Sallent, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430349-0002",
+    "codCliente": "430349",
+    "cliente": "PACADAR, SA",
+    "nombre": "PG250X NOUCAMP GRADAS Y ESCALERAS",
+    "label": "430349-0002 PACADAR, SA - PG250X NOUCAMP GRADAS Y ESCALERAS",
+    "direccion": "Diseminado Finca el Soler, 2,08650 Sallent, SALLENT, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430349-0003",
+    "codCliente": "430349",
+    "cliente": "PACADAR, SA",
+    "nombre": "PG240E PRELOBAR (R)",
+    "label": "430349-0003 PACADAR, SA - PG240E PRELOBAR (R)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430349-0004",
+    "codCliente": "430349",
+    "cliente": "PACADAR, SA",
+    "nombre": "G2530006 PRELOBAR (XT)",
+    "label": "430349-0004 PACADAR, SA - G2530006 PRELOBAR (XT)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430349-0005",
+    "codCliente": "430349",
+    "cliente": "PACADAR, SA",
+    "nombre": "PG2515 NOUCAMP PANELES 12cm",
+    "label": "430349-0005 PACADAR, SA - PG2515 NOUCAMP PANELES 12cm",
+    "direccion": "Diseminado Finca el Soler, 2,08650 Sallent, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430349-0006",
+    "codCliente": "430349",
+    "cliente": "PACADAR, SA",
+    "nombre": "PG251K NOUCAMP GRADAS Y STEPS",
+    "label": "430349-0006 PACADAR, SA - PG251K NOUCAMP GRADAS Y STEPS",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430416-0001",
+    "codCliente": "430416",
+    "cliente": "CHATARRAS UCHER SL",
+    "nombre": "VENTA CHATARRA",
+    "label": "430416-0001 CHATARRAS UCHER SL - VENTA CHATARRA",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430417-0001",
+    "codCliente": "430417",
+    "cliente": "AVINTIA PROYECTOS Y CONSTRUCCIONES, S.L.",
+    "nombre": "(BAR070A) 70 VIV EN TERRASSA - LANDCO",
+    "label": "430417-0001 AVINTIA PROYECTOS Y CONSTRUCCIONES, S.L. - (BAR070A) 70 VIV EN TERRASSA - LANDCO",
+    "direccion": "Avinguda de les Arts 51 de Terrassa, TERRASSA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430417-0002",
+    "codCliente": "430417",
+    "cliente": "AVINTIA PROYECTOS Y CONSTRUCCIONES, S.L.",
+    "nombre": "(BAR103A) 103 VIV ST ANDREU",
+    "label": "430417-0002 AVINTIA PROYECTOS Y CONSTRUCCIONES, S.L. - (BAR103A) 103 VIV ST ANDREU",
+    "direccion": "c/Fernando de Pessoa 20, esq. c/ estefania Requese, barcelona, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430421-0001",
+    "codCliente": "430421",
+    "cliente": "COPCISA, S.A.",
+    "nombre": "2439 - MILLORA ACCESS INTERCANVIADOR VERDAGUER",
+    "label": "430421-0001 COPCISA, S.A. - 2439 - MILLORA ACCESS INTERCANVIADOR VERDAGUER",
+    "direccion": "C. de Provença, 354-368, Eixample, 08037 Barcelona, 08037, BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430421-0002",
+    "codCliente": "430421",
+    "cliente": "COPCISA, S.A.",
+    "nombre": "2459 - PORTAL SUD SABADELL FASE 2",
+    "label": "430421-0002 COPCISA, S.A. - 2459 - PORTAL SUD SABADELL FASE 2",
+    "direccion": "Salvador Gil i Vernet, 5 P.i Can Torras (S. QUIRZE, 08192, SANT QUIRZE DEL VALLES, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430421-0003",
+    "codCliente": "430421",
+    "cliente": "COPCISA, S.A.",
+    "nombre": "2428 - MILLORA PORT FORUM",
+    "label": "430421-0003 COPCISA, S.A. - 2428 - MILLORA PORT FORUM",
+    "direccion": "Port forum, Moll del Parc de la Pau P14, 08930, 08930, Sant Adrià de Besòs, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430421-0004",
+    "codCliente": "430421",
+    "cliente": "COPCISA, S.A.",
+    "nombre": "2471 - EDIFICIO EMERGENCIAS SANT FRUITOS",
+    "label": "430421-0004 COPCISA, S.A. - 2471 - EDIFICIO EMERGENCIAS SANT FRUITOS",
+    "direccion": "Carrer El Cabanal 7D, Sant Fruitós de Bages, 08272, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430421-0005",
+    "codCliente": "430421",
+    "cliente": "COPCISA, S.A.",
+    "nombre": "2458 - AGROPARC GRUP AMETLLER GELIDA",
+    "label": "430421-0005 COPCISA, S.A. - 2458 - AGROPARC GRUP AMETLLER GELIDA",
+    "direccion": "Carretera BV-2249 de Gelida a Sant Llorenç d´Horto, 08790, Gelida, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430421-0006",
+    "codCliente": "430421",
+    "cliente": "COPCISA, S.A.",
+    "nombre": "2441 - AMPLIACIO DE LA XARXA FREATICA MONTJUIC",
+    "label": "430421-0006 COPCISA, S.A. - 2441 - AMPLIACIO DE LA XARXA FREATICA MONTJUIC",
+    "direccion": "Calle Dr. Font i Quer 24, 08038, BARCELONA (MONTJUÏC), BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430421-0007",
+    "codCliente": "430421",
+    "cliente": "COPCISA, S.A.",
+    "nombre": "2426 - 88 VIV VILANOVA MILOS AEDAS",
+    "label": "430421-0007 COPCISA, S.A. - 2426 - 88 VIV VILANOVA MILOS AEDAS",
+    "direccion": "Carrer Anys del Negats, 10 Vilanova i la Geltru, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430431-0001",
+    "codCliente": "430431",
+    "cliente": "JANSA METAL SA",
+    "nombre": "3468 - ESTRIBOS",
+    "label": "430431-0001 JANSA METAL SA - 3468 - ESTRIBOS",
+    "direccion": "Pol. Ind. Can Massaguer. 8 ABC La Roca del Valles, 08430, La Roca del Valles, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430439-0001",
+    "codCliente": "430439",
+    "cliente": "CONSTRUCTORA DE CALAF S.A.",
+    "nombre": "2345 - PROMOCIO 3 EDIFICIS A SITGES",
+    "label": "430439-0001 CONSTRUCTORA DE CALAF S.A. - 2345 - PROMOCIO 3 EDIFICIS A SITGES",
+    "direccion": "C/ Margarida Xirgú 7, Sitges, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430450-0001",
+    "codCliente": "430450",
+    "cliente": "Luis Parés, S.L.",
+    "nombre": "413 - 56 VIV MARINA PRAT VERMELL",
+    "label": "430450-0001 Luis Parés, S.L. - 413 - 56 VIV MARINA PRAT VERMELL",
+    "direccion": "C./ Cal Cisó n.44 (Barcelona), BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430450-0002",
+    "codCliente": "430450",
+    "cliente": "Luis Parés, S.L.",
+    "nombre": "413 - 56 VIV MARINA PRAT VERMELL (M)",
+    "label": "430450-0002 Luis Parés, S.L. - 413 - 56 VIV MARINA PRAT VERMELL (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430450-0003",
+    "codCliente": "430450",
+    "cliente": "Luis Parés, S.L.",
+    "nombre": "417 - 33 VIV RAMBLA VOLART, 39 - BARCELONA",
+    "label": "430450-0003 Luis Parés, S.L. - 417 - 33 VIV RAMBLA VOLART, 39 - BARCELONA",
+    "direccion": "RAMBLA VOLART 39, BARCELONA, BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430450-0004",
+    "codCliente": "430450",
+    "cliente": "Luis Parés, S.L.",
+    "nombre": "417 - 33 VIV RAMBLA VOLART, 39 - BARCELONA (XT)",
+    "label": "430450-0004 Luis Parés, S.L. - 417 - 33 VIV RAMBLA VOLART, 39 - BARCELONA (XT)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430450-0005",
+    "codCliente": "430450",
+    "cliente": "Luis Parés, S.L.",
+    "nombre": "417 - 33 VIV RAMBLA VOLART, 39 - BARCELONA (M)",
+    "label": "430450-0005 Luis Parés, S.L. - 417 - 33 VIV RAMBLA VOLART, 39 - BARCELONA (M)",
+    "direccion": "RAMBLA VOLART, 39 - BARCELONA (M), BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430451-0001",
+    "codCliente": "430451",
+    "cliente": "GLS CONSORCIO DEL HORMIGON SLU",
+    "nombre": "MAGATZEM SOSES",
+    "label": "430451-0001 GLS CONSORCIO DEL HORMIGON SLU - MAGATZEM SOSES",
+    "direccion": "LLEIDA",
+    "provincia": "LLEIDA"
+  },
+  {
+    "codigo": "430454-0001",
+    "codCliente": "430454",
+    "cliente": "CARBONELL FIGUERAS, SA",
+    "nombre": "2180-001 - AITASA  CARBONELL FIGUERES",
+    "label": "430454-0001 CARBONELL FIGUERAS, SA - 2180-001 - AITASA  CARBONELL FIGUERES",
+    "direccion": "EDAR VILASECA, TARRAGONA, 43481, Vila-seca, Tarragona, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430454-0002",
+    "codCliente": "430454",
+    "cliente": "CARBONELL FIGUERAS, SA",
+    "nombre": "2189-001 - BERTSCHI - PAVIMENTACION - OPCION 2",
+    "label": "430454-0002 CARBONELL FIGUERAS, SA - 2189-001 - BERTSCHI - PAVIMENTACION - OPCION 2",
+    "direccion": "COVESTRO - POL.IND.VILASECA, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430454-0003",
+    "codCliente": "430454",
+    "cliente": "CARBONELL FIGUERAS, SA",
+    "nombre": "2192-001 - PINTALUBA - NUEVA PLANTA QUIMICA",
+    "label": "430454-0003 CARBONELL FIGUERAS, SA - 2192-001 - PINTALUBA - NUEVA PLANTA QUIMICA",
+    "direccion": "CARRER MAS D´EN POTAU, 11A TARRAGONA, 43110, LA CANONJA -TARRAGONA, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430454-0004",
+    "codCliente": "430454",
+    "cliente": "CARBONELL FIGUERAS, SA",
+    "nombre": "2189-001 - BERTSCHI - PAVIMENTACION - OPCI (VENTA)",
+    "label": "430454-0004 CARBONELL FIGUERAS, SA - 2189-001 - BERTSCHI - PAVIMENTACION - OPCI (VENTA)",
+    "direccion": "TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430458-0001",
+    "codCliente": "430458",
+    "cliente": "CLIENTE VARIOS",
+    "nombre": "NAVE CALLE LA FORJA",
+    "label": "430458-0001 CLIENTE VARIOS - NAVE CALLE LA FORJA",
+    "direccion": "CALLE JAUME CASANOVAS Nº 171, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430462-0001",
+    "codCliente": "430462",
+    "cliente": "CERTIS CONSTRUCTORA OIS, S.A.",
+    "nombre": "6GL2503 NAVE MOLINS DE REI (M)",
+    "label": "430462-0001 CERTIS CONSTRUCTORA OIS, S.A. - 6GL2503 NAVE MOLINS DE REI (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430462-0002",
+    "codCliente": "430462",
+    "cliente": "CERTIS CONSTRUCTORA OIS, S.A.",
+    "nombre": "6FJ2523 EDIF PLURIF 27 HAB MARTORELLES (M)",
+    "label": "430462-0002 CERTIS CONSTRUCTORA OIS, S.A. - 6FJ2523 EDIF PLURIF 27 HAB MARTORELLES (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430462-0003",
+    "codCliente": "430462",
+    "cliente": "CERTIS CONSTRUCTORA OIS, S.A.",
+    "nombre": "6GL2503 NAVE MOLINS DE REI",
+    "label": "430462-0003 CERTIS CONSTRUCTORA OIS, S.A. - 6GL2503 NAVE MOLINS DE REI",
+    "direccion": "Passeig del Terraplè 79, MOLINS DE REI, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430462-0004",
+    "codCliente": "430462",
+    "cliente": "CERTIS CONSTRUCTORA OIS, S.A.",
+    "nombre": "6FJ2523 EDIF PLURIF 27 HAB MARTORELLES",
+    "label": "430462-0004 CERTIS CONSTRUCTORA OIS, S.A. - 6FJ2523 EDIF PLURIF 27 HAB MARTORELLES",
+    "direccion": "calle horta 15, Martorelles, 08107, MARTORELLES, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430462-0005",
+    "codCliente": "430462",
+    "cliente": "CERTIS CONSTRUCTORA OIS, S.A.",
+    "nombre": "6FJ2523 EDIF PLURIF 27 HAB MARTORELLES (VENTA)",
+    "label": "430462-0005 CERTIS CONSTRUCTORA OIS, S.A. - 6FJ2523 EDIF PLURIF 27 HAB MARTORELLES (VENTA)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430469-0001",
+    "codCliente": "430469",
+    "cliente": "BETA CONKRET SA",
+    "nombre": "0240401 - VILANOVA C/ CUBA",
+    "label": "430469-0001 BETA CONKRET SA - 0240401 - VILANOVA C/ CUBA",
+    "direccion": "CUBA 3, VILANOVA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430470-0001",
+    "codCliente": "430470",
+    "cliente": "HERCAL DIGGERS SL",
+    "nombre": "OC0136 - C/ MURILLO, 6 - TERRASSA",
+    "label": "430470-0001 HERCAL DIGGERS SL - OC0136 - C/ MURILLO, 6 - TERRASSA",
+    "direccion": "CARRER MURILLO 6, TERRASSA, TERRASSA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430470-0002",
+    "codCliente": "430470",
+    "cliente": "HERCAL DIGGERS SL",
+    "nombre": "OC0153 - C/ ALTA RIBAGOR_A, 20 - EL PRAT DE LLOB",
+    "label": "430470-0002 HERCAL DIGGERS SL - OC0153 - C/ ALTA RIBAGOR_A, 20 - EL PRAT DE LLOB",
+    "direccion": "C/ de l'Alta Ribagorça, 20 - El Prat de Llobregat, 08820, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430470-0003",
+    "codCliente": "430470",
+    "cliente": "HERCAL DIGGERS SL",
+    "nombre": "DE0627 - C/ CARTAGENA, 160 - BARCELONA",
+    "label": "430470-0003 HERCAL DIGGERS SL - DE0627 - C/ CARTAGENA, 160 - BARCELONA",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430470-0004",
+    "codCliente": "430470",
+    "cliente": "HERCAL DIGGERS SL",
+    "nombre": "OC0080 BILMA 22@ - RENTAMAR (VENTA)",
+    "label": "430470-0004 HERCAL DIGGERS SL - OC0080 BILMA 22@ - RENTAMAR (VENTA)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430470-0005",
+    "codCliente": "430470",
+    "cliente": "HERCAL DIGGERS SL",
+    "nombre": "OC0080 BILMA 22@ - RENTAMAR",
+    "label": "430470-0005 HERCAL DIGGERS SL - OC0080 BILMA 22@ - RENTAMAR",
+    "direccion": "CALLE MARROC 17-31 - BARCELONA, BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430470-0006",
+    "codCliente": "430470",
+    "cliente": "HERCAL DIGGERS SL",
+    "nombre": "OC0148 - REP PAVIMENTS ZONA SAC JARFELS",
+    "label": "430470-0006 HERCAL DIGGERS SL - OC0148 - REP PAVIMENTS ZONA SAC JARFELS",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430470-0007",
+    "codCliente": "430470",
+    "cliente": "HERCAL DIGGERS SL",
+    "nombre": "GG0018 DESARROLLO Y VALIDACION DE HORMIGON ESTRUCT",
+    "label": "430470-0007 HERCAL DIGGERS SL - GG0018 DESARROLLO Y VALIDACION DE HORMIGON ESTRUCT",
+    "direccion": "CRTA.MONCADA 880, 08227 TERRASSA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430470-0008",
+    "codCliente": "430470",
+    "cliente": "HERCAL DIGGERS SL",
+    "nombre": "MT1288 CENTRO DE DATOS CERDANYOLA",
+    "label": "430470-0008 HERCAL DIGGERS SL - MT1288 CENTRO DE DATOS CERDANYOLA",
+    "direccion": "Carrer Creu Casas i Sicart, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430470-0009",
+    "codCliente": "430470",
+    "cliente": "HERCAL DIGGERS SL",
+    "nombre": "OC0147 - C/ OSCA, 31 C/ PORTUGAL, 26 C/ AVELLANEDA",
+    "label": "430470-0009 HERCAL DIGGERS SL - OC0147 - C/ OSCA, 31 C/ PORTUGAL, 26 C/ AVELLANEDA",
+    "direccion": "PORTUGAL 31,  Sabadell, SABADELL, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430470-0010",
+    "codCliente": "430470",
+    "cliente": "HERCAL DIGGERS SL",
+    "nombre": "OC0150 - C01 BR T2 SECTOR CATALANA",
+    "label": "430470-0010 HERCAL DIGGERS SL - OC0150 - C01 BR T2 SECTOR CATALANA",
+    "direccion": "C/Cristobal de Moura esq.Av.La Catalana,Sant Adria, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430470-0011",
+    "codCliente": "430470",
+    "cliente": "HERCAL DIGGERS SL",
+    "nombre": "DE0625 - C. SAGUNT",
+    "label": "430470-0011 HERCAL DIGGERS SL - DE0625 - C. SAGUNT",
+    "direccion": "Carrer Sagunt, 15, 08225 Terrassa, Barcelona, Terrassa, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430505-0001",
+    "codCliente": "430505",
+    "cliente": "VESTA REHABILITACION, S.L.",
+    "nombre": "RH-25006 REHABILITACION MUSEO NECROPOLIS TARRAGONA",
+    "label": "430505-0001 VESTA REHABILITACION, S.L. - RH-25006 REHABILITACION MUSEO NECROPOLIS TARRAGONA",
+    "direccion": "Necrópolis Tàrraco,Av.Ramón y Cajal, 84, Tarragona, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430508-0001",
+    "codCliente": "430508",
+    "cliente": "ROMA INFRAESTRUCTURES I SERVEIS SAU",
+    "nombre": "3747 86 VIV - SANT PERE DE RIBES",
+    "label": "430508-0001 ROMA INFRAESTRUCTURES I SERVEIS SAU - 3747 86 VIV - SANT PERE DE RIBES",
+    "direccion": "Rda. de la Masia Nova, 34, Sant Pere de Ribes, 08812, Sant Pere de Ribes, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430515-0001",
+    "codCliente": "430515",
+    "cliente": "CIVITY OCP, S.L",
+    "nombre": "10501 CT10 DIAGONAL PARK (VENTA)",
+    "label": "430515-0001 CIVITY OCP, S.L - 10501 CT10 DIAGONAL PARK (VENTA)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430515-0002",
+    "codCliente": "430515",
+    "cliente": "CIVITY OCP, S.L",
+    "nombre": "10500 RESIDENCIA C/ PERE CAMPS C/ CID - BA (VENTA)",
+    "label": "430515-0002 CIVITY OCP, S.L - 10500 RESIDENCIA C/ PERE CAMPS C/ CID - BA (VENTA)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430515-0003",
+    "codCliente": "430515",
+    "cliente": "CIVITY OCP, S.L",
+    "nombre": "10541 QUICK BLANES",
+    "label": "430515-0003 CIVITY OCP, S.L - 10541 QUICK BLANES",
+    "direccion": "Av.Parlament de Catalunya, 11, Blanes, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430515-0004",
+    "codCliente": "430515",
+    "cliente": "CIVITY OCP, S.L",
+    "nombre": "10527 AO AMETLLA DEL VALLES (M)",
+    "label": "430515-0004 CIVITY OCP, S.L - 10527 AO AMETLLA DEL VALLES (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430515-0005",
+    "codCliente": "430515",
+    "cliente": "CIVITY OCP, S.L",
+    "nombre": "10500 RESIDENCIA C/ PERE CAMPS C/ CID - BARCELONA",
+    "label": "430515-0005 CIVITY OCP, S.L - 10500 RESIDENCIA C/ PERE CAMPS C/ CID - BARCELONA",
+    "direccion": "Calle Peracamps nº 8-16, BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430515-0006",
+    "codCliente": "430515",
+    "cliente": "CIVITY OCP, S.L",
+    "nombre": "10527 AO AMETLLA DEL VALLES",
+    "label": "430515-0006 CIVITY OCP, S.L - 10527 AO AMETLLA DEL VALLES",
+    "direccion": "Carrer de Barcelona s/n, Ametlla del Vallès, 08480, Ametlla del Vallès, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430515-0007",
+    "codCliente": "430515",
+    "cliente": "CIVITY OCP, S.L",
+    "nombre": "10501 CT10 DIAGONAL PARK",
+    "label": "430515-0007 CIVITY OCP, S.L - 10501 CT10 DIAGONAL PARK",
+    "direccion": "Carrer de Cartagena 39, 08013 Barcelona, 08013, BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430515-0008",
+    "codCliente": "430515",
+    "cliente": "CIVITY OCP, S.L",
+    "nombre": "10539 LIDL LLINARS",
+    "label": "430515-0008 CIVITY OCP, S.L - 10539 LIDL LLINARS",
+    "direccion": "Avd Mas Bagà esquina Ronda de Sant Antoni, Llinars, Llinars del Valles, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430520-0001",
+    "codCliente": "430520",
+    "cliente": "VILOR INFRAESTRUCTURAS, S.L.",
+    "nombre": "529 ALPICAT",
+    "label": "430520-0001 VILOR INFRAESTRUCTURAS, S.L. - 529 ALPICAT",
+    "direccion": "41°41'05.6\"N 0°32'56.5\"E (Alpicat-Lleida), ALPICAT, LLEIDA",
+    "provincia": "LLEIDA"
+  },
+  {
+    "codigo": "430520-0002",
+    "codCliente": "430520",
+    "cliente": "VILOR INFRAESTRUCTURAS, S.L.",
+    "nombre": "VIL663 ADIF EMERGENCIAS RODALIES",
+    "label": "430520-0002 VILOR INFRAESTRUCTURAS, S.L. - VIL663 ADIF EMERGENCIAS RODALIES",
+    "direccion": "https://maps.app.goo.gl/HSmXUuPHvYt6Fjvr9, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430520-0003",
+    "codCliente": "430520",
+    "cliente": "VILOR INFRAESTRUCTURAS, S.L.",
+    "nombre": "VIL541 ADIF MONCADA RIPOLLET ESTACION",
+    "label": "430520-0003 VILOR INFRAESTRUCTURAS, S.L. - VIL541 ADIF MONCADA RIPOLLET ESTACION",
+    "direccion": "Cruce Calle Aragon con Calle Angel Guimera, 08110, MONTCADA I REIXACH, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430520-0004",
+    "codCliente": "430520",
+    "cliente": "VILOR INFRAESTRUCTURAS, S.L.",
+    "nombre": "622 ACTUACIONES VILANOVETA",
+    "label": "430520-0004 VILOR INFRAESTRUCTURAS, S.L. - 622 ACTUACIONES VILANOVETA",
+    "direccion": "ESTACION VILANOVETA LLEIDA, LLEIDA",
+    "provincia": "LLEIDA"
+  },
+  {
+    "codigo": "430545-0001",
+    "codCliente": "430545",
+    "cliente": "VORACYS, S.L.",
+    "nombre": "580 - CARDEDEU (I)",
+    "label": "430545-0001 VORACYS, S.L. - 580 - CARDEDEU (I)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430545-0002",
+    "codCliente": "430545",
+    "cliente": "VORACYS, S.L.",
+    "nombre": "544 - MANGO CAMPUS EST (LOT ESTRUCTURA)",
+    "label": "430545-0002 VORACYS, S.L. - 544 - MANGO CAMPUS EST (LOT ESTRUCTURA)",
+    "direccion": "Carrer Mercaders, 17 Palau-solità i Plegamas, 08184, Palau-solità i Plegamas, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430545-0003",
+    "codCliente": "430545",
+    "cliente": "VORACYS, S.L.",
+    "nombre": "586 - PISCINAS LLINARS",
+    "label": "430545-0003 VORACYS, S.L. - 586 - PISCINAS LLINARS",
+    "direccion": "Avenida de Pau Casals, 281, 08450 Llinars del Vall, LLINARS DEL VALLES, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430545-0004",
+    "codCliente": "430545",
+    "cliente": "VORACYS, S.L.",
+    "nombre": "544 - MANGO CAMPUS EST (LOT ESTRUCTURA) (I)",
+    "label": "430545-0004 VORACYS, S.L. - 544 - MANGO CAMPUS EST (LOT ESTRUCTURA) (I)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430545-0005",
+    "codCliente": "430545",
+    "cliente": "VORACYS, S.L.",
+    "nombre": "564 - SABADELL INPAFINSA - 52 VIV. C.SANT FERRAN",
+    "label": "430545-0005 VORACYS, S.L. - 564 - SABADELL INPAFINSA - 52 VIV. C.SANT FERRAN",
+    "direccion": "CALLE SANT FERRAN 158 - SABADELL, SABADELL, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430545-0006",
+    "codCliente": "430545",
+    "cliente": "VORACYS, S.L.",
+    "nombre": "584 - TMB",
+    "label": "430545-0006 VORACYS, S.L. - 584 - TMB",
+    "direccion": "CARRER Z ZONA FRANCA, 35, 08040, Barcelona, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430545-0007",
+    "codCliente": "430545",
+    "cliente": "VORACYS, S.L.",
+    "nombre": "580 - CARDEDEU",
+    "label": "430545-0007 VORACYS, S.L. - 580 - CARDEDEU",
+    "direccion": "Plaça de la Pubilla s/n, Cardedeu, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430545-0008",
+    "codCliente": "430545",
+    "cliente": "VORACYS, S.L.",
+    "nombre": "584 - TMB (I)",
+    "label": "430545-0008 VORACYS, S.L. - 584 - TMB (I)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430545-0009",
+    "codCliente": "430545",
+    "cliente": "VORACYS, S.L.",
+    "nombre": "564 - SABADELL INPAFINSA - 52 VIV. C.SANT FERR (I)",
+    "label": "430545-0009 VORACYS, S.L. - 564 - SABADELL INPAFINSA - 52 VIV. C.SANT FERR (I)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430545-0010",
+    "codCliente": "430545",
+    "cliente": "VORACYS, S.L.",
+    "nombre": "586 - PISCINAS LLINARS (I)",
+    "label": "430545-0010 VORACYS, S.L. - 586 - PISCINAS LLINARS (I)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430560-0001",
+    "codCliente": "430560",
+    "cliente": "M Y J GRUAS SA",
+    "nombre": "ED0088 - INS ESCOLA 2 LINIES A ROQUETES",
+    "label": "430560-0001 M Y J GRUAS SA - ED0088 - INS ESCOLA 2 LINIES A ROQUETES",
+    "direccion": "Ronda Masia Nova 5, Sant Pere de Ribes, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430565-0001",
+    "codCliente": "430565",
+    "cliente": "ARMADURAS DE ACERO FERRALIA",
+    "nombre": "PIERA",
+    "label": "430565-0001 ARMADURAS DE ACERO FERRALIA - PIERA",
+    "direccion": "AVENIDA CARRETEERA IGUALADA 92-94, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430565-0002",
+    "codCliente": "430565",
+    "cliente": "ARMADURAS DE ACERO FERRALIA",
+    "nombre": "VILADECANS",
+    "label": "430565-0002 ARMADURAS DE ACERO FERRALIA - VILADECANS",
+    "direccion": "CALLE LA FORJA 50, VILADECANS, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430568-0001",
+    "codCliente": "430568",
+    "cliente": "CONSTRUCTORA DEL CARDONER, S.A.",
+    "nombre": "4196 - HOTEL C/ GRANER 26-28, HOSPITALET DE LLOB",
+    "label": "430568-0001 CONSTRUCTORA DEL CARDONER, S.A. - 4196 - HOTEL C/ GRANER 26-28, HOSPITALET DE LLOB",
+    "direccion": "Carrer Graner 26, Hospitalet de Llobregat, Hospitalet de Llobregat, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430568-0002",
+    "codCliente": "430568",
+    "cliente": "CONSTRUCTORA DEL CARDONER, S.A.",
+    "nombre": "4128 - NAU INDUSTRIAL IDILIA FOODS",
+    "label": "430568-0002 CONSTRUCTORA DEL CARDONER, S.A. - 4128 - NAU INDUSTRIAL IDILIA FOODS",
+    "direccion": "C-17, Km 16.138, 08150 Parets del Valles, Parets del Valles, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430568-0003",
+    "codCliente": "430568",
+    "cliente": "CONSTRUCTORA DEL CARDONER, S.A.",
+    "nombre": "4185 - TANATORI TORRA",
+    "label": "430568-0003 CONSTRUCTORA DEL CARDONER, S.A. - 4185 - TANATORI TORRA",
+    "direccion": "C/ Raimon Casellas, 134 - SABADELL, 08205, SABADELL, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430568-0004",
+    "codCliente": "430568",
+    "cliente": "CONSTRUCTORA DEL CARDONER, S.A.",
+    "nombre": "4210 - PASARELA ST ADRIA BESOS",
+    "label": "430568-0004 CONSTRUCTORA DEL CARDONER, S.A. - 4210 - PASARELA ST ADRIA BESOS",
+    "direccion": "Pg. Antonio Machado,59, 08930, Sant Adria de Besos, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430571-0001",
+    "codCliente": "430571",
+    "cliente": "ONIL OBRAS Y SERVICIOS SA",
+    "nombre": "1171 LOGICOR BRAFIM",
+    "label": "430571-0001 ONIL OBRAS Y SERVICIOS SA - 1171 LOGICOR BRAFIM",
+    "direccion": "Calle B Polígono Industrial 10  BRAFIM - TARRAGONA, 43812, BRAFIM, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430584-0001",
+    "codCliente": "430584",
+    "cliente": "VIALSER EDIFICACION Y OBRA CIVIL, S.L.",
+    "nombre": "463 PARC CIRCULAR MATARO",
+    "label": "430584-0001 VIALSER EDIFICACION Y OBRA CIVIL, S.L. - 463 PARC CIRCULAR MATARO",
+    "direccion": "Carrer Vapor Gordils, nº22, 08304, Mataró., BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430590-0001",
+    "codCliente": "430590",
+    "cliente": "TARRACO EMPRESA CONSTRUCTORA, S.L.U.",
+    "nombre": "2969 - FIBS 50 VIV - ARENYS DE MAR",
+    "label": "430590-0001 TARRACO EMPRESA CONSTRUCTORA, S.L.U. - 2969 - FIBS 50 VIV - ARENYS DE MAR",
+    "direccion": "Rial de Pau Costa, 75, 08350, Arenys de Mar, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430590-0002",
+    "codCliente": "430590",
+    "cliente": "TARRACO EMPRESA CONSTRUCTORA, S.L.U.",
+    "nombre": "3031 - INFINITUM RESORT 90 VIV VIA MARIS SALOU",
+    "label": "430590-0002 TARRACO EMPRESA CONSTRUCTORA, S.L.U. - 3031 - INFINITUM RESORT 90 VIV VIA MARIS SALOU",
+    "direccion": "C. Torremolinos,esq Avda. Pla del Maset, Salou, Salou, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430602-0001",
+    "codCliente": "430602",
+    "cliente": "ROIG CONSTRUCCIONES Y SERVICIOS, S.L.",
+    "nombre": "OB0282 FONSALDON VILADECANS CAN CALDERON FASE II M",
+    "label": "430602-0001 ROIG CONSTRUCCIONES Y SERVICIOS, S.L. - OB0282 FONSALDON VILADECANS CAN CALDERON FASE II M",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430602-0002",
+    "codCliente": "430602",
+    "cliente": "ROIG CONSTRUCCIONES Y SERVICIOS, S.L.",
+    "nombre": "OB0278 - MAGALLANES - RUBI - EDIFICIO PRISMA",
+    "label": "430602-0002 ROIG CONSTRUCCIONES Y SERVICIOS, S.L. - OB0278 - MAGALLANES - RUBI - EDIFICIO PRISMA",
+    "direccion": "TORRENT DE L ALBA,  11 - RUBI, RUBI, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430602-0003",
+    "codCliente": "430602",
+    "cliente": "ROIG CONSTRUCCIONES Y SERVICIOS, S.L.",
+    "nombre": "OB0282 FONSALDON VILADECANS CAN CALDERON FASE II",
+    "label": "430602-0003 ROIG CONSTRUCCIONES Y SERVICIOS, S.L. - OB0282 FONSALDON VILADECANS CAN CALDERON FASE II",
+    "direccion": "Av del Segle XXI 57ª, 57b Y 57c (esquina con Torre, VILADECANS, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430602-0004",
+    "codCliente": "430602",
+    "cliente": "ROIG CONSTRUCCIONES Y SERVICIOS, S.L.",
+    "nombre": "OB0259 C/ VIOLETES - VALLDOREIX",
+    "label": "430602-0004 ROIG CONSTRUCCIONES Y SERVICIOS, S.L. - OB0259 C/ VIOLETES - VALLDOREIX",
+    "direccion": "VALLDOREIX, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430602-0005",
+    "codCliente": "430602",
+    "cliente": "ROIG CONSTRUCCIONES Y SERVICIOS, S.L.",
+    "nombre": "OB0326 - INFRAEST - PENEDES - ST SADURNI-IGUALADA",
+    "label": "430602-0005 ROIG CONSTRUCCIONES Y SERVICIOS, S.L. - OB0326 - INFRAEST - PENEDES - ST SADURNI-IGUALADA",
+    "direccion": "Plaza Santiago Rusiñol s/n -SANT SADURNI, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430602-0006",
+    "codCliente": "430602",
+    "cliente": "ROIG CONSTRUCCIONES Y SERVICIOS, S.L.",
+    "nombre": "OB0328 - BRISA ST PERE DE RIBES (M)",
+    "label": "430602-0006 ROIG CONSTRUCCIONES Y SERVICIOS, S.L. - OB0328 - BRISA ST PERE DE RIBES (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430602-0007",
+    "codCliente": "430602",
+    "cliente": "ROIG CONSTRUCCIONES Y SERVICIOS, S.L.",
+    "nombre": "OB0312 - BETARQ_SBD_SANT PAU",
+    "label": "430602-0007 ROIG CONSTRUCCIONES Y SERVICIOS, S.L. - OB0312 - BETARQ_SBD_SANT PAU",
+    "direccion": "C/Cervantes 75 - SABADELL, Sabadell, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430602-0008",
+    "codCliente": "430602",
+    "cliente": "ROIG CONSTRUCCIONES Y SERVICIOS, S.L.",
+    "nombre": "OB0312 - BETARQ_SBD_SANT PAU (M)",
+    "label": "430602-0008 ROIG CONSTRUCCIONES Y SERVICIOS, S.L. - OB0312 - BETARQ_SBD_SANT PAU (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430602-0009",
+    "codCliente": "430602",
+    "cliente": "ROIG CONSTRUCCIONES Y SERVICIOS, S.L.",
+    "nombre": "OB0297 - HEALTHCARE GAVA",
+    "label": "430602-0009 ROIG CONSTRUCCIONES Y SERVICIOS, S.L. - OB0297 - HEALTHCARE GAVA",
+    "direccion": "Calle Pi i Margall 62, Gavà, Gavá, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430602-0010",
+    "codCliente": "430602",
+    "cliente": "ROIG CONSTRUCCIONES Y SERVICIOS, S.L.",
+    "nombre": "OB0297 - HEALTHCARE GAVA (M)",
+    "label": "430602-0010 ROIG CONSTRUCCIONES Y SERVICIOS, S.L. - OB0297 - HEALTHCARE GAVA (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430602-0011",
+    "codCliente": "430602",
+    "cliente": "ROIG CONSTRUCCIONES Y SERVICIOS, S.L.",
+    "nombre": "OB0328 - BRISA ST PERE DE RIBES",
+    "label": "430602-0011 ROIG CONSTRUCCIONES Y SERVICIOS, S.L. - OB0328 - BRISA ST PERE DE RIBES",
+    "direccion": "C/ de la Dragona - Sant Pere de Ribes, (08812), Sant Pere de Ribes, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430622-0001",
+    "codCliente": "430622",
+    "cliente": "2012 INPRO GESTIO, S.L.",
+    "nombre": "OBRA SANT BOI DE LLOBREGAT",
+    "label": "430622-0001 2012 INPRO GESTIO, S.L. - OBRA SANT BOI DE LLOBREGAT",
+    "direccion": "CARRER DE LES ERES 6, SANT BOI DE LLOBREGAT, 08830, SANT BOI DE LLOBREGAT, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430635-0001",
+    "codCliente": "430635",
+    "cliente": "CONSTRUCIA SL",
+    "nombre": "C000746 CIRCULAR CAPITAL VIVIENDAS ARRELS DEL COLL",
+    "label": "430635-0001 CONSTRUCIA SL - C000746 CIRCULAR CAPITAL VIVIENDAS ARRELS DEL COLL",
+    "direccion": "Paseo de la Torre Blanca 54 , Sant Cugat del Vallé, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430638-0001",
+    "codCliente": "430638",
+    "cliente": "GARCIA RIERA, S.L.",
+    "nombre": "259 - PROM PATI DEL GALL - VILAFRANCA",
+    "label": "430638-0001 GARCIA RIERA, S.L. - 259 - PROM PATI DEL GALL - VILAFRANCA",
+    "direccion": "CARRER DEL NORD 10 - VILAFRANCA DEL PENEDES, VILAFRANCA DEL PENEDES, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430638-0002",
+    "codCliente": "430638",
+    "cliente": "GARCIA RIERA, S.L.",
+    "nombre": "267 - EDIF 96+8 HAB P13 ST PERE",
+    "label": "430638-0002 GARCIA RIERA, S.L. - 267 - EDIF 96+8 HAB P13 ST PERE",
+    "direccion": "Carrer Turó de l'Home 11-13  - ST PERE RIBES, 08812, SANT PERE DE RIBES, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430638-0003",
+    "codCliente": "430638",
+    "cliente": "GARCIA RIERA, S.L.",
+    "nombre": "264 - HAB BADIA DEL VALLES",
+    "label": "430638-0003 GARCIA RIERA, S.L. - 264 - HAB BADIA DEL VALLES",
+    "direccion": "Avda de Saragossa S/Nª casi esquina Av de Burgos, 08214, Badia del Vallés, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430638-0004",
+    "codCliente": "430638",
+    "cliente": "GARCIA RIERA, S.L.",
+    "nombre": "249 - ACUS TARRAGONA",
+    "label": "430638-0004 GARCIA RIERA, S.L. - 249 - ACUS TARRAGONA",
+    "direccion": "carrer Arquebisbe Torroella N4., TARRAGONA, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430638-0005",
+    "codCliente": "430638",
+    "cliente": "GARCIA RIERA, S.L.",
+    "nombre": "264 - HAB BADIA DEL VALLES (M)",
+    "label": "430638-0005 GARCIA RIERA, S.L. - 264 - HAB BADIA DEL VALLES (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430638-0006",
+    "codCliente": "430638",
+    "cliente": "GARCIA RIERA, S.L.",
+    "nombre": "129 - CAP LA PALMA DE CERVELLO",
+    "label": "430638-0006 GARCIA RIERA, S.L. - 129 - CAP LA PALMA DE CERVELLO",
+    "direccion": "Carrer Sant Josep,  La palma de Cervelló, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430638-0007",
+    "codCliente": "430638",
+    "cliente": "GARCIA RIERA, S.L.",
+    "nombre": "265 - 60H PONT DE VILOMARA",
+    "label": "430638-0007 GARCIA RIERA, S.L. - 265 - 60H PONT DE VILOMARA",
+    "direccion": "Ctra Pont de Vilomara, 121, Pilar Bertran MANRESA, MANRESA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430639-0001",
+    "codCliente": "430639",
+    "cliente": "ZAPZER TRADE SL",
+    "nombre": "C/ RONCESVALLES, 17 - BADALONA",
+    "label": "430639-0001 ZAPZER TRADE SL - C/ RONCESVALLES, 17 - BADALONA",
+    "direccion": "c/ de Roncesvalles, 17, BADALONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430657-0001",
+    "codCliente": "430657",
+    "cliente": "NORTON EDIFICIOS INDUSTRIALES, S.A.",
+    "nombre": "232926 7889 E MERIDIA MARTORELL",
+    "label": "430657-0001 NORTON EDIFICIOS INDUSTRIALES, S.A. - 232926 7889 E MERIDIA MARTORELL",
+    "direccion": "Parcela 3 del Sector Xàmenes- MARTORELL, 08760, MARTORELL, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430657-0002",
+    "codCliente": "430657",
+    "cliente": "NORTON EDIFICIOS INDUSTRIALES, S.A.",
+    "nombre": "243946 8009 RHENUS EL PRAT",
+    "label": "430657-0002 NORTON EDIFICIOS INDUSTRIALES, S.A. - 243946 8009 RHENUS EL PRAT",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430657-0003",
+    "codCliente": "430657",
+    "cliente": "NORTON EDIFICIOS INDUSTRIALES, S.A.",
+    "nombre": "254134 ARISTEAS MARTORELL",
+    "label": "430657-0003 NORTON EDIFICIOS INDUSTRIALES, S.A. - 254134 ARISTEAS MARTORELL",
+    "direccion": "Finca Número 1, Sector 3 Xámenes (Clau AE-3),, 08635, Sant Esteve Sesrovires, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430666-0001",
+    "codCliente": "430666",
+    "cliente": "TOMAS GRACIA CORPORACION, S.A.",
+    "nombre": "24165 - 21 VIV VILADECANS",
+    "label": "430666-0001 TOMAS GRACIA CORPORACION, S.A. - 24165 - 21 VIV VILADECANS",
+    "direccion": "C/ LLUIS COMPANYS, 9 - VILADECANS, 08840, VILADECANS, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430666-0002",
+    "codCliente": "430666",
+    "cliente": "TOMAS GRACIA CORPORACION, S.A.",
+    "nombre": "24250 - 44 VIV PARCELA M1-3 SITGES",
+    "label": "430666-0002 TOMAS GRACIA CORPORACION, S.A. - 24250 - 44 VIV PARCELA M1-3 SITGES",
+    "direccion": "AVINGUDA SOFIA, 52-54 SITGES, SITGES, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430669-0001",
+    "codCliente": "430669",
+    "cliente": "VILLA-REYES, S.L.",
+    "nombre": "1681 14 VIV C/ SANT MATEU, 7 - VALLIRANA (M)",
+    "label": "430669-0001 VILLA-REYES, S.L. - 1681 14 VIV C/ SANT MATEU, 7 - VALLIRANA (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430669-0002",
+    "codCliente": "430669",
+    "cliente": "VILLA-REYES, S.L.",
+    "nombre": "1681 14 VIV C/ SANT MATEU, 7 - VALLIRANA",
+    "label": "430669-0002 VILLA-REYES, S.L. - 1681 14 VIV C/ SANT MATEU, 7 - VALLIRANA",
+    "direccion": "Calle Sant Mateu,5-7 (Vallirana), BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430669-0003",
+    "codCliente": "430669",
+    "cliente": "VILLA-REYES, S.L.",
+    "nombre": "1688 - OFICINAS SCS POLINYA",
+    "label": "430669-0003 VILLA-REYES, S.L. - 1688 - OFICINAS SCS POLINYA",
+    "direccion": "Carrer Garbí, 6, 08213 Polinyà, Barcelona, Polinya, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430669-0004",
+    "codCliente": "430669",
+    "cliente": "VILLA-REYES, S.L.",
+    "nombre": "1667 ESCUELA SUIZA - FASE II",
+    "label": "430669-0004 VILLA-REYES, S.L. - 1667 ESCUELA SUIZA - FASE II",
+    "direccion": "Calle BRUSI 68, 08006, Barcelona, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430674-0001",
+    "codCliente": "430674",
+    "cliente": "COSPLAAN OBRAS Y SERVICIOS LAANTIT, S.L.U.",
+    "nombre": "C487 - CAMI RAL, 64 - PREMIA DE MAR",
+    "label": "430674-0001 COSPLAAN OBRAS Y SERVICIOS LAANTIT, S.L.U. - C487 - CAMI RAL, 64 - PREMIA DE MAR",
+    "direccion": "C/ de la Merce, 2, Premia de Mar, Premia de Mar, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430675-0001",
+    "codCliente": "430675",
+    "cliente": "EXLAND EXCAVACIONS I TRANSPORTS, S.L",
+    "nombre": "794/1 - LA RIBA",
+    "label": "430675-0001 EXLAND EXCAVACIONS I TRANSPORTS, S.L - 794/1 - LA RIBA",
+    "direccion": "TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430675-0002",
+    "codCliente": "430675",
+    "cliente": "EXLAND EXCAVACIONS I TRANSPORTS, S.L",
+    "nombre": "MUROS CONTENCION CABRIANES",
+    "label": "430675-0002 EXLAND EXCAVACIONS I TRANSPORTS, S.L - MUROS CONTENCION CABRIANES",
+    "direccion": "P.I. Berenguer 2, 08650 Cabrianes (Barcelona), BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430684-0001",
+    "codCliente": "430684",
+    "cliente": "ELECNOR SERVICIOS Y PROYECTOS, S.A.U.",
+    "nombre": "037/17801 FRONDA - CABRERA DE MAR",
+    "label": "430684-0001 ELECNOR SERVICIOS Y PROYECTOS, S.A.U. - 037/17801 FRONDA - CABRERA DE MAR",
+    "direccion": "AV.MARESME,C/ILLES MEDESC,PAS.MEDITER(CABRERA MAR), BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430684-0002",
+    "codCliente": "430684",
+    "cliente": "ELECNOR SERVICIOS Y PROYECTOS, S.A.U.",
+    "nombre": "037/17701 NAVE TRT SABADELL",
+    "label": "430684-0002 ELECNOR SERVICIOS Y PROYECTOS, S.A.U. - 037/17701 NAVE TRT SABADELL",
+    "direccion": "RAMBLA IBERIA, 99 - SABADELL, 08205, SABADELL, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430684-0003",
+    "codCliente": "430684",
+    "cliente": "ELECNOR SERVICIOS Y PROYECTOS, S.A.U.",
+    "nombre": "049-03501 AUDITORIO ESPLUGUES",
+    "label": "430684-0003 ELECNOR SERVICIOS Y PROYECTOS, S.A.U. - 049-03501 AUDITORIO ESPLUGUES",
+    "direccion": "C/ Rafael Sebastià Irla, S/N, 08950, Esplugues, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430684-0004",
+    "codCliente": "430684",
+    "cliente": "ELECNOR SERVICIOS Y PROYECTOS, S.A.U.",
+    "nombre": "049-03501 AUDITORIO ESPLUGUES (M)",
+    "label": "430684-0004 ELECNOR SERVICIOS Y PROYECTOS, S.A.U. - 049-03501 AUDITORIO ESPLUGUES (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430695-0001",
+    "codCliente": "430695",
+    "cliente": "SEROM",
+    "nombre": "21020 28 VIV SANT JOAN DESPI",
+    "label": "430695-0001 SEROM - 21020 28 VIV SANT JOAN DESPI",
+    "direccion": "Carrer de Federica Montseny, 3, 08940, Cornella` de Llobregat, Barcelona, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430703-0001",
+    "codCliente": "430703",
+    "cliente": "RUBATEC",
+    "nombre": "2090 - ZOO DE BARCELONA",
+    "label": "430703-0001 RUBATEC - 2090 - ZOO DE BARCELONA",
+    "direccion": "Pl.de Joan Fiveller (Parlament Catalunya) BCN, Barcelona, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430703-0002",
+    "codCliente": "430703",
+    "cliente": "RUBATEC",
+    "nombre": "ARMADURA LOSA - BARCELONA",
+    "label": "430703-0002 RUBATEC - ARMADURA LOSA - BARCELONA",
+    "direccion": "c/Edison con c/Dr. Fleming - S.E.SESROVIRES, 08635, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430711-0001",
+    "codCliente": "430711",
+    "cliente": "BIGAS GRUP, S.L.U.",
+    "nombre": "BG486-25 BIMSA. REMODELACIO PL. FLANDES",
+    "label": "430711-0001 BIGAS GRUP, S.L.U. - BG486-25 BIMSA. REMODELACIO PL. FLANDES",
+    "direccion": "Pl. de Flandes, 1, Gràcia, Barcelona, 08023, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430711-0002",
+    "codCliente": "430711",
+    "cliente": "BIGAS GRUP, S.L.U.",
+    "nombre": "BG459 C245 - VILADECANS",
+    "label": "430711-0002 BIGAS GRUP, S.L.U. - BG459 C245 - VILADECANS",
+    "direccion": "Lateral CTRA BARCELONA nº 35 – Viladecans, 08840, VILADECANS, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430711-0003",
+    "codCliente": "430711",
+    "cliente": "BIGAS GRUP, S.L.U.",
+    "nombre": "BG448-24 BIMSA XARXA FREATICA LOT 1",
+    "label": "430711-0003 BIGAS GRUP, S.L.U. - BG448-24 BIMSA XARXA FREATICA LOT 1",
+    "direccion": "C/VILAMARI, ESQ C/DIPUTACION (PARC JOAN MIRO) BARC, BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430740-0001",
+    "codCliente": "430740",
+    "cliente": "ESTRUCTURAS TECNICAS Y SERVICIOS DE REHABILITACION, S.L.",
+    "nombre": "24PU004 PONTS DIBA - PONT FIGARO",
+    "label": "430740-0001 ESTRUCTURAS TECNICAS Y SERVICIOS DE REHABILITACION, S.L. - 24PU004 PONTS DIBA - PONT FIGARO",
+    "direccion": "carretera BV-1489, Figaró-Montmany, 08590, Figaró-Montmany, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430740-0002",
+    "codCliente": "430740",
+    "cliente": "ESTRUCTURAS TECNICAS Y SERVICIOS DE REHABILITACION, S.L.",
+    "nombre": "24PU004 PONTS DIBA - PONTS CERDANYOLA I FIGARO",
+    "label": "430740-0002 ESTRUCTURAS TECNICAS Y SERVICIOS DE REHABILITACION, S.L. - 24PU004 PONTS DIBA - PONTS CERDANYOLA I FIGARO",
+    "direccion": "Carrer Àngel Guimerà, 2, 08193, Cerdanyola del Valles, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430740-0003",
+    "codCliente": "430740",
+    "cliente": "ESTRUCTURAS TECNICAS Y SERVICIOS DE REHABILITACION, S.L.",
+    "nombre": "24PU014 PONTS DIBA - PONT MARTORELL",
+    "label": "430740-0003 ESTRUCTURAS TECNICAS Y SERVICIOS DE REHABILITACION, S.L. - 24PU014 PONTS DIBA - PONT MARTORELL",
+    "direccion": "Carretera BV-2433, Plaça 24,, 08760, Martorell, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430741-0001",
+    "codCliente": "430741",
+    "cliente": "CONSTRUCCIONES SABATER, S.A.",
+    "nombre": "AV. DE LA VIRREINA, 6 - TIANA",
+    "label": "430741-0001 CONSTRUCCIONES SABATER, S.A. - AV. DE LA VIRREINA, 6 - TIANA",
+    "direccion": "carrer Nou de la Virreina, 6 - MONTGAT, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430748-0001",
+    "codCliente": "430748",
+    "cliente": "SOLDUCT, S.L.",
+    "nombre": "378 - EDIFICI CAN 70 SOSTRE CIVIC",
+    "label": "430748-0001 SOLDUCT, S.L. - 378 - EDIFICI CAN 70 SOSTRE CIVIC",
+    "direccion": "VÍA AUGUSTA, 383 BARCELONA, 08017, BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430757-0001",
+    "codCliente": "430757",
+    "cliente": "AYTOGRUP CONSTRUCTORA, S.L.",
+    "nombre": "VIV C/ FONTANELLA, 9",
+    "label": "430757-0001 AYTOGRUP CONSTRUCTORA, S.L. - VIV C/ FONTANELLA, 9",
+    "direccion": "C/ FONTANELLA 12-19, BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430768-0001",
+    "codCliente": "430768",
+    "cliente": "JOAN GRIMAU CONSTRUCCIONS, S.L.",
+    "nombre": "3025 NAVE AUTOCAM - VILANOVA I LA GELTRU",
+    "label": "430768-0001 JOAN GRIMAU CONSTRUCCIONS, S.L. - 3025 NAVE AUTOCAM - VILANOVA I LA GELTRU",
+    "direccion": "Ronda d'Europa, 62, 08800, Vilanova i la Geltrú, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0001",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C061150307 NAVE CONDOR",
+    "label": "430790-0001 ACEROS PARA LA CONSTRUCCION S.A.U. - C061150307 NAVE CONDOR",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0002",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C200306601 ZTTT SAGRERA",
+    "label": "430790-0002 ACEROS PARA LA CONSTRUCCION S.A.U. - C200306601 ZTTT SAGRERA",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0003",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C200306601 ZTTT SAGRERA (E)",
+    "label": "430790-0003 ACEROS PARA LA CONSTRUCCION S.A.U. - C200306601 ZTTT SAGRERA (E)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0004",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "PLANTA DE RESIDUS DEL BAGES (E)",
+    "label": "430790-0004 ACEROS PARA LA CONSTRUCCION S.A.U. - PLANTA DE RESIDUS DEL BAGES (E)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0005",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C200307701 UTE CIUTADELLA DEL CONEIXEMENT (E)",
+    "label": "430790-0005 ACEROS PARA LA CONSTRUCCION S.A.U. - C200307701 UTE CIUTADELLA DEL CONEIXEMENT (E)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0006",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C200325001 UTE MONTAJE VIA SAGRERA AV",
+    "label": "430790-0006 ACEROS PARA LA CONSTRUCCION S.A.U. - C200325001 UTE MONTAJE VIA SAGRERA AV",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0007",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C200313202 SPOTIFY CAMP NOU STADIUM (E)",
+    "label": "430790-0007 ACEROS PARA LA CONSTRUCCION S.A.U. - C200313202 SPOTIFY CAMP NOU STADIUM (E)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0008",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C200346801 UTE EDAR PALMA II (E)",
+    "label": "430790-0008 ACEROS PARA LA CONSTRUCCION S.A.U. - C200346801 UTE EDAR PALMA II (E)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0009",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C061858401 UTE ACCESOS ESTACION SAGRERA (E)",
+    "label": "430790-0009 ACEROS PARA LA CONSTRUCCION S.A.U. - C061858401 UTE ACCESOS ESTACION SAGRERA (E)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0010",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C061150307 NAVE CONDOR (E)",
+    "label": "430790-0010 ACEROS PARA LA CONSTRUCCION S.A.U. - C061150307 NAVE CONDOR (E)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0011",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C200325001 UTE MONTAJE VIA SAGRERA AV (E)",
+    "label": "430790-0011 ACEROS PARA LA CONSTRUCCION S.A.U. - C200325001 UTE MONTAJE VIA SAGRERA AV (E)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0012",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C200313202 SPOTIFY CAMP NOU STADIUM",
+    "label": "430790-0012 ACEROS PARA LA CONSTRUCCION S.A.U. - C200313202 SPOTIFY CAMP NOU STADIUM",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0013",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "PLANTA DE RESIDUS DEL BAGES",
+    "label": "430790-0013 ACEROS PARA LA CONSTRUCCION S.A.U. - PLANTA DE RESIDUS DEL BAGES",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0014",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C200346801 UTE EDAR PALMA II",
+    "label": "430790-0014 ACEROS PARA LA CONSTRUCCION S.A.U. - C200346801 UTE EDAR PALMA II",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0015",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C061858401 UTE ACCESOS ESTACION SAGRERA",
+    "label": "430790-0015 ACEROS PARA LA CONSTRUCCION S.A.U. - C061858401 UTE ACCESOS ESTACION SAGRERA",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0016",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "DIFERENCIA DE CALIBRES",
+    "label": "430790-0016 ACEROS PARA LA CONSTRUCCION S.A.U. - DIFERENCIA DE CALIBRES",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0017",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C061853702 UTE ESTRUCTURA SAGRERA AVE",
+    "label": "430790-0017 ACEROS PARA LA CONSTRUCCION S.A.U. - C061853702 UTE ESTRUCTURA SAGRERA AVE",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0018",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C061853702 UTE ESTRUCTURA SAGRERA AVE (E)",
+    "label": "430790-0018 ACEROS PARA LA CONSTRUCCION S.A.U. - C061853702 UTE ESTRUCTURA SAGRERA AVE (E)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430790-0019",
+    "codCliente": "430790",
+    "cliente": "ACEROS PARA LA CONSTRUCCION S.A.U.",
+    "nombre": "C200307701 UTE CIUTADELLA DEL CONEIXEMENT",
+    "label": "430790-0019 ACEROS PARA LA CONSTRUCCION S.A.U. - C200307701 UTE CIUTADELLA DEL CONEIXEMENT",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430791-0001",
+    "codCliente": "430791",
+    "cliente": "UTE COBERTURA RONDA DE DALT",
+    "nombre": "PR-UT0004 COBERTURA DE LA RONDA DE DALT",
+    "label": "430791-0001 UTE COBERTURA RONDA DE DALT - PR-UT0004 COBERTURA DE LA RONDA DE DALT",
+    "direccion": "AV VALLCARCA PK 10,15 al PK 10+5 C/ARENYS 9 - BCN, BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430800-0001",
+    "codCliente": "430800",
+    "cliente": "DSV EMPRESA CONSTRUCTORA Y FERROVIARIA SL",
+    "nombre": "PROLONGACION VIA 2 - VIC - BARCELONA",
+    "label": "430800-0001 DSV EMPRESA CONSTRUCTORA Y FERROVIARIA SL - PROLONGACION VIA 2 - VIC - BARCELONA",
+    "direccion": "CARRER DE SANT ISIDRE 5, VIC, 08700, VIC, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430802-0001",
+    "codCliente": "430802",
+    "cliente": "GEYCO SERVEIS INTEGRASL CONSTRUCCIO 2023, S.L.",
+    "nombre": "CAMBRILS PARK - TRUSS",
+    "label": "430802-0001 GEYCO SERVEIS INTEGRASL CONSTRUCCIO 2023, S.L. - CAMBRILS PARK - TRUSS",
+    "direccion": "Avda. mas Clariana s/n, Cambrils, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430802-0002",
+    "codCliente": "430802",
+    "cliente": "GEYCO SERVEIS INTEGRASL CONSTRUCCIO 2023, S.L.",
+    "nombre": "NOU PETIT HOTEL",
+    "label": "430802-0002 GEYCO SERVEIS INTEGRASL CONSTRUCCIO 2023, S.L. - NOU PETIT HOTEL",
+    "direccion": "AV CASTELL DE VILAFORTUNY 38 - CAMBRILS, 43850, Cambrils, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430802-0003",
+    "codCliente": "430802",
+    "cliente": "GEYCO SERVEIS INTEGRASL CONSTRUCCIO 2023, S.L.",
+    "nombre": "CAMPING SANGULI",
+    "label": "430802-0003 GEYCO SERVEIS INTEGRASL CONSTRUCCIO 2023, S.L. - CAMPING SANGULI",
+    "direccion": "Pg. Miramar, S/N, 43840, Salou, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430802-0004",
+    "codCliente": "430802",
+    "cliente": "GEYCO SERVEIS INTEGRASL CONSTRUCCIO 2023, S.L.",
+    "nombre": "CAMBRILS PARK - ZONA DE JOCS MEDITERRANEA",
+    "label": "430802-0004 GEYCO SERVEIS INTEGRASL CONSTRUCCIO 2023, S.L. - CAMBRILS PARK - ZONA DE JOCS MEDITERRANEA",
+    "direccion": "TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430802-0005",
+    "codCliente": "430802",
+    "cliente": "GEYCO SERVEIS INTEGRASL CONSTRUCCIO 2023, S.L.",
+    "nombre": "NOU PETIT HOTEL (VENTA)",
+    "label": "430802-0005 GEYCO SERVEIS INTEGRASL CONSTRUCCIO 2023, S.L. - NOU PETIT HOTEL (VENTA)",
+    "direccion": "TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430804-0001",
+    "codCliente": "430804",
+    "cliente": "UTE DIPOSIT CAT VILA-SECA NORD",
+    "nombre": "U2033 DIPOSIT CAT VILA-SECA EXP 83/2023",
+    "label": "430804-0001 UTE DIPOSIT CAT VILA-SECA NORD - U2033 DIPOSIT CAT VILA-SECA EXP 83/2023",
+    "direccion": "Poligon 45 Parcela 29 - Vilaseca, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430811-0001",
+    "codCliente": "430811",
+    "cliente": "DURAN BARBARA CONSTRUCTORA",
+    "nombre": "POLIDEPORTIVO LA SALLE BONANOVA",
+    "label": "430811-0001 DURAN BARBARA CONSTRUCTORA - POLIDEPORTIVO LA SALLE BONANOVA",
+    "direccion": "Calle Lluçanès amb cantonada Solsonès, Barcelona, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430811-0002",
+    "codCliente": "430811",
+    "cliente": "DURAN BARBARA CONSTRUCTORA",
+    "nombre": "C/ PAU CASALS, 95 - EL PRAT",
+    "label": "430811-0002 DURAN BARBARA CONSTRUCTORA - C/ PAU CASALS, 95 - EL PRAT",
+    "direccion": "C/ PAU CASALS 95 - EL PRAT -, EL PRAT, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430814-0001",
+    "codCliente": "430814",
+    "cliente": "UTE EDIFICI HOSPITAL JOAN XXIII",
+    "nombre": "HOSPITAL JOAN XXIII - TARRAGONA (M)",
+    "label": "430814-0001 UTE EDIFICI HOSPITAL JOAN XXIII - HOSPITAL JOAN XXIII - TARRAGONA (M)",
+    "direccion": "TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430814-0002",
+    "codCliente": "430814",
+    "cliente": "UTE EDIFICI HOSPITAL JOAN XXIII",
+    "nombre": "HOSPITAL JOAN XXIII - TARRAGONA",
+    "label": "430814-0002 UTE EDIFICI HOSPITAL JOAN XXIII - HOSPITAL JOAN XXIII - TARRAGONA",
+    "direccion": "C. de Guillem Oliver, 4, 43005, TARRAGONA, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430815-0001",
+    "codCliente": "430815",
+    "cliente": "UTE SJD CENTRE SALUT MENTAL GARRAF",
+    "nombre": "1616 - RONDA IBERICA, 133 - VILANOVA I LA GELTRU",
+    "label": "430815-0001 UTE SJD CENTRE SALUT MENTAL GARRAF - 1616 - RONDA IBERICA, 133 - VILANOVA I LA GELTRU",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430815-0002",
+    "codCliente": "430815",
+    "cliente": "UTE SJD CENTRE SALUT MENTAL GARRAF",
+    "nombre": "1616 - RONDA IBERICA, 133 - VILANOVA I LA GELT (M)",
+    "label": "430815-0002 UTE SJD CENTRE SALUT MENTAL GARRAF - 1616 - RONDA IBERICA, 133 - VILANOVA I LA GELT (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430820-0001",
+    "codCliente": "430820",
+    "cliente": "ESTACION DE SANTS UTE",
+    "nombre": "C4066 UTE ESTACION DE SANTS (MLL)",
+    "label": "430820-0001 ESTACION DE SANTS UTE - C4066 UTE ESTACION DE SANTS (MLL)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430820-0002",
+    "codCliente": "430820",
+    "cliente": "ESTACION DE SANTS UTE",
+    "nombre": "C4066 UTE ESTACION DE SANTS",
+    "label": "430820-0002 ESTACION DE SANTS UTE - C4066 UTE ESTACION DE SANTS",
+    "direccion": "PLAZA PAISOS CATALANES, 01   BARCELONA, 08014, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430822-0001",
+    "codCliente": "430822",
+    "cliente": "UTE CEM MARINA",
+    "nombre": "6JD2541U AMPLIACIO CEM MARINA",
+    "label": "430822-0001 UTE CEM MARINA - 6JD2541U AMPLIACIO CEM MARINA",
+    "direccion": "CALLE ENERGIA, 20 BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430823-0001",
+    "codCliente": "430823",
+    "cliente": "UTE ATIS 100",
+    "nombre": "2001-001 ATI 100 ASCO (ES3)",
+    "label": "430823-0001 UTE ATIS 100 - 2001-001 ATI 100 ASCO (ES3)",
+    "direccion": "CONTRATO - 25/00015, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430823-0002",
+    "codCliente": "430823",
+    "cliente": "UTE ATIS 100",
+    "nombre": "2000-001 ATI 100 VANDELLOS (ES4)",
+    "label": "430823-0002 UTE ATIS 100 - 2000-001 ATI 100 VANDELLOS (ES4)",
+    "direccion": "C.Nuclear Vandellós II,N-340 Km. 1123 hospi.infant, TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430824-0001",
+    "codCliente": "430824",
+    "cliente": "REHABILITACIO ETAP TER",
+    "nombre": "CCH30 - REHABILITACIO ETAP TER F1",
+    "label": "430824-0001 REHABILITACIO ETAP TER - CCH30 - REHABILITACIO ETAP TER F1",
+    "direccion": "Ctra. Aigües, 6, CARDEDEU, CARDEDEU, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430824-0002",
+    "codCliente": "430824",
+    "cliente": "REHABILITACIO ETAP TER",
+    "nombre": "CCH30 - REHABILITACIO ETAP TER F1 (M)",
+    "label": "430824-0002 REHABILITACIO ETAP TER - CCH30 - REHABILITACIO ETAP TER F1 (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430824-0003",
+    "codCliente": "430824",
+    "cliente": "REHABILITACIO ETAP TER",
+    "nombre": "CCH30 - REHABILITACIO ETAP TER F1 (M)",
+    "label": "430824-0003 REHABILITACIO ETAP TER - CCH30 - REHABILITACIO ETAP TER F1 (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430824-0004",
+    "codCliente": "430824",
+    "cliente": "REHABILITACIO ETAP TER",
+    "nombre": "CCH30 - REHABILITACIO ETAP TER F1",
+    "label": "430824-0004 REHABILITACIO ETAP TER - CCH30 - REHABILITACIO ETAP TER F1",
+    "direccion": "Ctra. Aigües, 6,, 08440, Cardedeu, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430829-0001",
+    "codCliente": "430829",
+    "cliente": "ABZAC IBERICA, SLU",
+    "nombre": "SERVICIO BASCULA",
+    "label": "430829-0001 ABZAC IBERICA, SLU - SERVICIO BASCULA",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430830-0001",
+    "codCliente": "430830",
+    "cliente": "UTE COL LECTOR DE SALMORRES",
+    "nombre": "3U84 UTE COL. SALMORRES",
+    "label": "430830-0001 UTE COL LECTOR DE SALMORRES - 3U84 UTE COL. SALMORRES",
+    "direccion": "Carrer Molins Paperers-Estació Depuradora Manresa-, 08240, Mnaresa, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430831-0001",
+    "codCliente": "430831",
+    "cliente": "UTE PLANTAS FOTOVOLT. AEROP. BARCELONA",
+    "nombre": "C4030 UTE PLANTAS FOTOVOLTAICAS AEROPUERTO BCN",
+    "label": "430831-0001 UTE PLANTAS FOTOVOLT. AEROP. BARCELONA - C4030 UTE PLANTAS FOTOVOLTAICAS AEROPUERTO BCN",
+    "direccion": "https://maps.app.goo.gl/QNvg7J2SFDfaxQKd9, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430831-0002",
+    "codCliente": "430831",
+    "cliente": "UTE PLANTAS FOTOVOLT. AEROP. BARCELONA",
+    "nombre": "C4030 UTE PLANTAS FOTOVOLTAICAS AEROPUERTO REUS",
+    "label": "430831-0002 UTE PLANTAS FOTOVOLT. AEROP. BARCELONA - C4030 UTE PLANTAS FOTOVOLTAICAS AEROPUERTO REUS",
+    "direccion": "AEROPUERTO REUS, REUS, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430832-0001",
+    "codCliente": "430832",
+    "cliente": "UTE ARTSTUDIO",
+    "nombre": "UTE0122 ARTHUB",
+    "label": "430832-0001 UTE ARTSTUDIO - UTE0122 ARTHUB",
+    "direccion": "Av. Carrilet 197-199. C/Da Vinci 51 (Hospitalet), BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430836-0001",
+    "codCliente": "430836",
+    "cliente": "VIMASA",
+    "nombre": "TRASLADO PISTA DE BASQUET VALLCARCA A GRACIA",
+    "label": "430836-0001 VIMASA - TRASLADO PISTA DE BASQUET VALLCARCA A GRACIA",
+    "direccion": "C/Vallcarca, 126 Barcelona, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430836-0002",
+    "codCliente": "430836",
+    "cliente": "VIMASA",
+    "nombre": "CELOSIAS H16 - BARCELONA",
+    "label": "430836-0002 VIMASA - CELOSIAS H16 - BARCELONA",
+    "direccion": "EL PRAT DE LLOBREGAT - VER ENLACE, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430837-0001",
+    "codCliente": "430837",
+    "cliente": "UTE 4 FASE AMP ADOSADO",
+    "nombre": "UTE 4 FASE AMP ADOSADO",
+    "label": "430837-0001 UTE 4 FASE AMP ADOSADO - UTE 4 FASE AMP ADOSADO",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430839-0001",
+    "codCliente": "430839",
+    "cliente": "UTE ADAPTACION CAN TUNIS",
+    "nombre": "C2028 UTE ADAPTACION CAN TUNIS",
+    "label": "430839-0001 UTE ADAPTACION CAN TUNIS - C2028 UTE ADAPTACION CAN TUNIS",
+    "direccion": "C. de Bartomeo Oliver de Can Tunis, s/n, 08040, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430840-0001",
+    "codCliente": "430840",
+    "cliente": "POLIFERRALLA, S.L.",
+    "nombre": "UTE DUPLICACION R3",
+    "label": "430840-0001 POLIFERRALLA, S.L. - UTE DUPLICACION R3",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430841-0001",
+    "codCliente": "430841",
+    "cliente": "SORRES I GRAVES EGARA, S.A.",
+    "nombre": "OC0146 PEDIDO ACERO BASCULAS - BARCELONA",
+    "label": "430841-0001 SORRES I GRAVES EGARA, S.A. - OC0146 PEDIDO ACERO BASCULAS - BARCELONA",
+    "direccion": "Carretera dOlesa, 1, 08224 Terrassa, Barcelona, TERRASSA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430841-0002",
+    "codCliente": "430841",
+    "cliente": "SORRES I GRAVES EGARA, S.A.",
+    "nombre": "OC0146 PEDIDO ACERO BASCULAS - BARCELONA (M)",
+    "label": "430841-0002 SORRES I GRAVES EGARA, S.A. - OC0146 PEDIDO ACERO BASCULAS - BARCELONA (M)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430842-0001",
+    "codCliente": "430842",
+    "cliente": "UTE ACOMETIDA ELECTRICA BCN",
+    "nombre": "UTE ACOMETIDA ELECTRICA BCN",
+    "label": "430842-0001 UTE ACOMETIDA ELECTRICA BCN - UTE ACOMETIDA ELECTRICA BCN",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430843-0001",
+    "codCliente": "430843",
+    "cliente": "FORMIGONS MONTCAU, S.A.",
+    "nombre": "MALLA SABADELL",
+    "label": "430843-0001 FORMIGONS MONTCAU, S.A. - MALLA SABADELL",
+    "direccion": "Calle Valenti Almirall, 63 de Sabadell, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430844-0001",
+    "codCliente": "430844",
+    "cliente": "UTE ESTRUCTURA HOSPITAL VENDRELL",
+    "nombre": "4203 ESTRUCTURA HOSPITAL DEL VENDRELL",
+    "label": "430844-0001 UTE ESTRUCTURA HOSPITAL VENDRELL - 4203 ESTRUCTURA HOSPITAL DEL VENDRELL",
+    "direccion": "Carretera de Barcelona, s/n 42700_El Vendrell, 42700, EL VENDRELL, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430845-0001",
+    "codCliente": "430845",
+    "cliente": "SERTTEC PROJECTES, S.L.",
+    "nombre": "NAVE EN HOSTALETS DE PIEROLA",
+    "label": "430845-0001 SERTTEC PROJECTES, S.L. - NAVE EN HOSTALETS DE PIEROLA",
+    "direccion": "Carrer Progres 10 Hostalets de Pierola, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430846-0001",
+    "codCliente": "430846",
+    "cliente": "SORIGUE, S.A.",
+    "nombre": "CECO 811286 GESTIO PARCMOTOR CASTELLOLI",
+    "label": "430846-0001 SORIGUE, S.A. - CECO 811286 GESTIO PARCMOTOR CASTELLOLI",
+    "direccion": "Crta, A-2, Km 560,  CASTELLOLI, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430848-0001",
+    "codCliente": "430848",
+    "cliente": "UTE DEPOSITO RAMBLA PRIM BARCELONA",
+    "nombre": "C5066 UTE DEPOSITO RAMBLA PRIM BARCELONA (XT)",
+    "label": "430848-0001 UTE DEPOSITO RAMBLA PRIM BARCELONA - C5066 UTE DEPOSITO RAMBLA PRIM BARCELONA (XT)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430848-0002",
+    "codCliente": "430848",
+    "cliente": "UTE DEPOSITO RAMBLA PRIM BARCELONA",
+    "nombre": "C5066 UTE DEPOSITO RAMBLA PRIM BARCELONA",
+    "label": "430848-0002 UTE DEPOSITO RAMBLA PRIM BARCELONA - C5066 UTE DEPOSITO RAMBLA PRIM BARCELONA",
+    "direccion": "Rambla Prim 258, BARCELONA, BARCELONA, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430848-0003",
+    "codCliente": "430848",
+    "cliente": "UTE DEPOSITO RAMBLA PRIM BARCELONA",
+    "nombre": "C5066 UTE DEPOSITO RAMBLA PRIM BARCELONA (XT2)",
+    "label": "430848-0003 UTE DEPOSITO RAMBLA PRIM BARCELONA - C5066 UTE DEPOSITO RAMBLA PRIM BARCELONA (XT2)",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430852-0001",
+    "codCliente": "430852",
+    "cliente": "SOLID BUILDING, S.L.",
+    "nombre": "28 VIV AV. ANSELM CLAVE - EL PRAT DE LLOBREGAT",
+    "label": "430852-0001 SOLID BUILDING, S.L. - 28 VIV AV. ANSELM CLAVE - EL PRAT DE LLOBREGAT",
+    "direccion": "Avinguda Josep Anselm Clavé 24, El Prat de Llobreg, 08820, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430853-0001",
+    "codCliente": "430853",
+    "cliente": "VAZMONT 2001, S.L.",
+    "nombre": "OBRA_VARIOS",
+    "label": "430853-0001 VAZMONT 2001, S.L. - OBRA_VARIOS",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430855-0001",
+    "codCliente": "430855",
+    "cliente": "RUBAU TARRES, S.A.",
+    "nombre": "25108 - TORROELLA DE MONTGRI ULLA PC-CGG-21011",
+    "label": "430855-0001 RUBAU TARRES, S.A. - 25108 - TORROELLA DE MONTGRI ULLA PC-CGG-21011",
+    "direccion": "Carretera C31 Ullà (GIRONA), GIRONA",
+    "provincia": "GIRONA"
+  },
+  {
+    "codigo": "430856-0001",
+    "codCliente": "430856",
+    "cliente": "CALAF TRENCHING, S.L.U.",
+    "nombre": "818 - ABAST AIGUA A VALLFOGONA DE RIUCORB",
+    "label": "430856-0001 CALAF TRENCHING, S.L.U. - 818 - ABAST AIGUA A VALLFOGONA DE RIUCORB",
+    "direccion": "Vallfogona de Riucorb (TGN), TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430857-0001",
+    "codCliente": "430857",
+    "cliente": "MIGUEL SALAET, S.A.",
+    "nombre": "P4 XAMENES - MARTORELL",
+    "label": "430857-0001 MIGUEL SALAET, S.A. - P4 XAMENES - MARTORELL",
+    "direccion": "Xamenes junto Lidel Martorell. Carretera B.224, martorell, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430857-0002",
+    "codCliente": "430857",
+    "cliente": "MIGUEL SALAET, S.A.",
+    "nombre": "OBRA SGL",
+    "label": "430857-0002 MIGUEL SALAET, S.A. - OBRA SGL",
+    "direccion": "carrer Galileu nº1-9 Sant Esteve Sesrovires, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430858-0001",
+    "codCliente": "430858",
+    "cliente": "E2K ADD VALUE CONSTRUCTION, S.L.",
+    "nombre": "25040 - MELCOMBE SANT QUIRZE",
+    "label": "430858-0001 E2K ADD VALUE CONSTRUCTION, S.L. - 25040 - MELCOMBE SANT QUIRZE",
+    "direccion": "C/BERGUEDA C/DE L´ANOIA (SANT QUIRZE V.), BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430858-0002",
+    "codCliente": "430858",
+    "cliente": "E2K ADD VALUE CONSTRUCTION, S.L.",
+    "nombre": "25027 - GOODMAN BCN CITY HUB PLOT 1",
+    "label": "430858-0002 E2K ADD VALUE CONSTRUCTION, S.L. - 25027 - GOODMAN BCN CITY HUB PLOT 1",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430859-0001",
+    "codCliente": "430859",
+    "cliente": "SUSECOSA, S.L.",
+    "nombre": "PEDIDOS_VARIOS",
+    "label": "430859-0001 SUSECOSA, S.L. - PEDIDOS_VARIOS",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430860-0001",
+    "codCliente": "430860",
+    "cliente": "SUMINISTROS INCOR, S.L.",
+    "nombre": "MALLA HOSPITALET",
+    "label": "430860-0001 SUMINISTROS INCOR, S.L. - MALLA HOSPITALET",
+    "direccion": "TRAVESIA INDUSTRIAL 49 (GO!GO! PADEL INDOOR), 08907, HOSPITALET DE LLOBREGAT, BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430861-0001",
+    "codCliente": "430861",
+    "cliente": "QBS 2020, S.L.",
+    "nombre": "EMPRIUS E2 - SALOU",
+    "label": "430861-0001 QBS 2020, S.L. - EMPRIUS E2 - SALOU",
+    "direccion": "TARRAGONA",
+    "provincia": "TARRAGONA"
+  },
+  {
+    "codigo": "430862-0001",
+    "codCliente": "430862",
+    "cliente": "CONSTRUCCIONS BOURHA D'ANOIA, S.L.",
+    "nombre": "PEDIDO ESTRIBOS",
+    "label": "430862-0001 CONSTRUCCIONS BOURHA D'ANOIA, S.L. - PEDIDO ESTRIBOS",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  },
+  {
+    "codigo": "430863-0001",
+    "codCliente": "430863",
+    "cliente": "OBRAS Y SERVICIOS TEX, S.L.",
+    "nombre": "KAVE HOME - TORDERA",
+    "label": "430863-0001 OBRAS Y SERVICIOS TEX, S.L. - KAVE HOME - TORDERA",
+    "direccion": "BARCELONA",
+    "provincia": "BARCELONA"
+  }
+]
