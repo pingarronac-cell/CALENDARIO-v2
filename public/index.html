@@ -38,20 +38,20 @@
   --r2:      12px;
 
   /* Estado colors */
-  --e-plan:  #374151; --e-plan-bg:  #e5e7eb;
-  --e-apro:  #6d28d9; --e-apro-bg:  #ede9fe;
+  --e-plan:  #c0392b; --e-plan-bg:  #ffd2c0;
+  --e-apro:  #555555; --e-apro-bg:  #f5f5f5;
   --e-imp:   #b45309; --e-imp-bg:   #fef9c3;
   --e-prod:  #1d4ed8; --e-prod-bg:  #dbeafe;
   --e-acab:  #15803d; --e-acab-bg:  #dcfce7;
-  --e-ruta:  #0e7490; --e-ruta-bg:  #cffafe;
+  --e-ruta:  #556b2f; --e-ruta-bg:  #c8d89a;
 
   /* Slot bg by estado */
-  --slot-plan:  #f8f9fa;
-  --slot-apro:  #ede9fe;
+  --slot-plan:  #ffa07a22;
+  --slot-apro:  #ffffff;
   --slot-imp:   #fef9c3;
   --slot-prod:  #dbeafe;
   --slot-acab:  #dcfce7;
-  --slot-ruta:  #cffafe;
+  --slot-ruta:  #6b7c3222;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -313,12 +313,12 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 .slot-festivo-x { display: flex; align-items: center; justify-content: center; min-height: 86px; color: #fca5a5; font-size: 20px; }
 
 /* ESTADO CLASSES */
-.eb-planificado    { background: var(--e-plan-bg);  color: var(--e-plan); }
-.eb-aprobado       { background: var(--e-apro-bg);  color: var(--e-apro); }
+.eb-planificado    { background: #ffd2c0; color: #c0392b; }
+.eb-aprobado       { background: #f0f0f0; color: #555555; }
 .eb-impreso        { background: var(--e-imp-bg);   color: var(--e-imp); }
 .eb-en_produccion  { background: var(--e-prod-bg);  color: var(--e-prod); }
 .eb-acabado        { background: var(--e-acab-bg);  color: var(--e-acab); }
-.eb-en_ruta        { background: var(--e-ruta-bg);  color: var(--e-ruta); }
+.eb-en_ruta        { background: #c8d89a; color: #556b2f; }
 
 /* ─── MODALS ─── */
 .overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 400; align-items: center; justify-content: center; backdrop-filter: blur(3px); }
@@ -366,18 +366,18 @@ textarea.fi { resize: vertical; min-height: 70px; }
 .ebtn:hover:not(.disabled) { opacity: .85; transform: translateY(-1px); }
 .ebtn.active  { opacity: 1; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
 .ebtn.disabled { cursor: not-allowed; opacity: .2; }
-.ebtn.planificado   { background: var(--e-plan-bg); color: var(--e-plan); border-color: #d1d5db; }
-.ebtn.aprobado      { background: var(--e-apro-bg); color: var(--e-apro); border-color: #ddd6fe; }
+.ebtn.planificado   { background: #ffd2c0; color: #c0392b; border-color: #e8967a; }
+.ebtn.aprobado      { background: #f0f0f0; color: #555555; border-color: #cccccc; }
 .ebtn.impreso       { background: var(--e-imp-bg);  color: var(--e-imp);  border-color: #fde68a; }
 .ebtn.en_produccion { background: var(--e-prod-bg); color: var(--e-prod); border-color: #bfdbfe; }
 .ebtn.acabado       { background: var(--e-acab-bg); color: var(--e-acab); border-color: #86efac; }
-.ebtn.en_ruta       { background: var(--e-ruta-bg); color: var(--e-ruta); border-color: #a5f3fc; }
-.ebtn.active.planificado   { border-color: var(--e-plan); }
-.ebtn.active.aprobado      { border-color: var(--e-apro); }
+.ebtn.en_ruta       { background: #c8d89a; color: #556b2f; border-color: #8faa40; }
+.ebtn.active.planificado   { border-color: #c0392b; }
+.ebtn.active.aprobado      { border-color: #888888; }
 .ebtn.active.impreso       { border-color: var(--e-imp); }
 .ebtn.active.en_produccion { border-color: var(--e-prod); }
 .ebtn.active.acabado       { border-color: var(--e-acab); }
-.ebtn.active.en_ruta       { border-color: var(--e-ruta); }
+.ebtn.active.en_ruta       { border-color: #556b2f; }
 
 /* DIRECTION AUTO-FILL */
 .dir-display { background: var(--surface2); border: 1px solid var(--border); border-radius: var(--r); padding: 8px 11px; font-size: 12px; color: var(--text2); min-height: 36px; }
@@ -540,7 +540,18 @@ textarea.fi { resize: vertical; min-height: 70px; }
             <label class="fl">Números de pedido <span style="color:var(--red)">*</span></label>
             <button type="button" class="btn" id="btnAddPedido" onclick="addPedidoRow()" style="padding:2px 10px;font-size:11px">+ Añadir</button>
           </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr 80px 80px 24px;gap:4px;margin-bottom:4px;padding:0 2px">
+            <span style="font-size:9px;font-weight:700;color:var(--muted2);text-transform:uppercase;letter-spacing:.5px">Nº Pedido</span>
+            <span style="font-size:9px;font-weight:700;color:var(--muted2);text-transform:uppercase;letter-spacing:.5px">Descripción</span>
+            <span style="font-size:9px;font-weight:700;color:var(--muted2);text-transform:uppercase;letter-spacing:.5px">Obra/referencia</span>
+            <span style="font-size:9px;font-weight:700;color:#2563eb;text-transform:uppercase;letter-spacing:.5px">KG Elab</span>
+            <span style="font-size:9px;font-weight:700;color:#16a34a;text-transform:uppercase;letter-spacing:.5px">KG Sold</span>
+            <span></span>
+          </div>
           <div id="pedidosRows"></div>
+          <div id="kgTotals" style="font-size:11px;color:var(--muted2);margin-top:4px;font-family:'JetBrains Mono',monospace;display:flex;gap:16px;padding:4px 2px;border-top:1px solid var(--border)">
+            <span>Total: <b id="totalElab" style="color:#2563eb">0 kg</b> Elab · <b id="totalSold" style="color:#16a34a">0 kg</b> Sold</span>
+          </div>
           <div id="pedidoValidMsg" style="display:none;font-size:11px;color:var(--red);margin-top:4px">⚠ Introduce al menos un número de pedido</div>
         </div>
         <div class="fg" style="margin-bottom:14px;position:relative" id="obraWrap">
@@ -557,16 +568,8 @@ textarea.fi { resize: vertical; min-height: 70px; }
           <label class="fl">Dirección (automática)</label>
           <div class="dir-display" id="dirDisplay">—</div>
         </div>
-        <div class="fr" style="margin-bottom:14px">
-          <div class="fg">
-            <label class="fl" style="display:flex;align-items:center;gap:4px"><span style="width:8px;height:8px;border-radius:50%;background:#2563eb;display:inline-block"></span> KG Elaborado</label>
-            <input class="fi" id="fKgElab" type="number" placeholder="0" min="0" oninput="onKgChange()">
-          </div>
-          <div class="fg">
-            <label class="fl" style="display:flex;align-items:center;gap:4px"><span style="width:8px;height:8px;border-radius:50%;background:#16a34a;display:inline-block"></span> KG Soldado</label>
-            <input class="fi" id="fKgSold" type="number" placeholder="0" min="0" oninput="onKgChange()">
-          </div>
-        </div>
+        <input type="hidden" id="fKgElab">
+        <input type="hidden" id="fKgSold">
         <div class="fr" style="margin-bottom:14px">
           <div class="fg">
             <label class="fl">Transportista</label>
@@ -768,12 +771,12 @@ const T_COLORS_DEFAULT = {
   'SERVETO':'#dc2626'
 };
 const ESTADO_INFO = {
-  planificado:   { label:'Planificado',    icon:'📋', color:'var(--e-plan)', bg:'var(--e-plan-bg)' },
-  aprobado:      { label:'Aprobado',       icon:'✅', color:'var(--e-apro)', bg:'var(--e-apro-bg)' },
+  planificado:   { label:'Planificado',    icon:'📋', color:'#c0392b', bg:'#ffd2c0' },
+  aprobado:      { label:'Aprobado',       icon:'✅', color:'#555555', bg:'#f0f0f0' },
   impreso:       { label:'Impreso',        icon:'🖨️', color:'var(--e-imp)',  bg:'var(--e-imp-bg)' },
   en_produccion: { label:'En producción',  icon:'⚙️', color:'var(--e-prod)', bg:'var(--e-prod-bg)' },
   acabado:       { label:'Acabado',        icon:'✔️', color:'var(--e-acab)', bg:'var(--e-acab-bg)' },
-  en_ruta:       { label:'En ruta',        icon:'🚛', color:'var(--e-ruta)', bg:'var(--e-ruta-bg)' },
+  en_ruta:       { label:'En ruta',        icon:'🚛', color:'#556b2f', bg:'#c8d89a' },
 };
 const DIAS = ['Lunes','Martes','Miércoles','Jueves','Viernes'];
 const SLOTS = 12;
@@ -1004,14 +1007,16 @@ function renderCalendar() {
         const ei  = ESTADO_INFO[p.estado] || ESTADO_INFO.planificado;
         const ec  = estadoClass(p.estado);
         const canDrag = userRole === 'admin';
+        const isOwnSlot = p.author === currentUser;
         shtml += `
           <div class="slot estado-${p.estado||'planificado'} ${canDrag?'draggable-slot':''}"
             data-key="${key}" data-date="${ds}"
             onclick="openSlot('${ds}',${s})"
+            style="cursor:${isOwnSlot||userRole==='admin'||OT_ALLOWED.includes(currentUser)?'pointer':'default'}"
             ${canDrag ? `draggable="true" ondragstart="onDragStart(event,'${key}')"` : ''}>
             <div class="slot-estado-strip" style="background:${ei.color}"></div>
             <div class="slot-num">#${s+1}</div>
-              ${p.orden ? `<div style="position:absolute;top:4px;right:28px;color:#dc2626;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:800;letter-spacing:1px;z-index:2">${p.orden}</div>` : ''}
+              ${p.orden ? `<div style="position:absolute;bottom:5px;right:6px;color:#dc2626;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:800;letter-spacing:1px;z-index:2">${p.orden}</div>` : ''}
             ${p.observaciones ? '<div class="slot-obs-dot"></div>' : ''}
             <div class="slot-inner" style="padding-left:14px">
 
@@ -1277,19 +1282,46 @@ function renderPedidoRows(rows) {
   const container = document.getElementById('pedidosRows');
   if (!container) return;
   const isDisabled = document.getElementById('fObra')?.disabled || false;
-  // Ensure at least 1 row
-  if (!rows.length) rows = [{ num: '', desc: '' }];
+  if (!rows.length) rows = [{ num: '', desc: '', ref: '', kgElab: '', kgSold: '' }];
   container.innerHTML = rows.map((r, i) => `
-    <div class="pedido-row" id="prow${i}">
-      <input class="fi pi" type="text" maxlength="10" placeholder="Nº pedido"
+    <div class="pedido-row" id="prow${i}" style="display:grid;grid-template-columns:1fr 1fr 1fr 80px 80px 24px;gap:4px;margin-bottom:4px">
+      <input class="fi pi" type="text" maxlength="10" placeholder="Ej: 60001"
         value="${r.num||''}" oninput="onPedidoNumInput(this,${i})"
-        style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;"
+        style="font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;padding:6px 8px"
         ${isDisabled?'disabled':''}/>
-      <input class="fi pd" type="text" maxlength="30" placeholder="Descripción corta (máx. 30 car.)"
-        value="${(r.desc||'').slice(0,30)}" oninput="this.value=this.value.slice(0,30)"
-        ${isDisabled?'disabled':''}/>
-      ${i > 0 && !isDisabled ? `<button type="button" class="pr" onclick="removePedidoRow(${i})" title="Eliminar">✕</button>` : '<span style="width:24px"></span>'}
+      <input class="fi pd" type="text" maxlength="30" placeholder="Descripción..."
+        value="${(r.desc||'').slice(0,30)}" oninput="this.value=this.value.slice(0,30);updateKgTotals()"
+        style="font-size:12px;padding:6px 8px" ${isDisabled?'disabled':''}/>
+      <input class="fi" type="text" maxlength="40" placeholder="Ref. obra (opcional)"
+        value="${r.ref||''}" oninput="updateKgTotals()"
+        style="font-size:12px;padding:6px 8px" ${isDisabled?'disabled':''}/>
+      <input class="fi" type="number" min="0" placeholder="0"
+        value="${r.kgElab||''}" oninput="updateKgTotals()"
+        style="font-size:12px;padding:6px 8px;color:#2563eb;font-weight:600" ${isDisabled?'disabled':''}/>
+      <input class="fi" type="number" min="0" placeholder="0"
+        value="${r.kgSold||''}" oninput="updateKgTotals()"
+        style="font-size:12px;padding:6px 8px;color:#16a34a;font-weight:600" ${isDisabled?'disabled':''}/>
+      ${!isDisabled && i > 0 ? `<button type="button" class="pr" onclick="removePedidoRow(${i})" title="Eliminar" style="align-self:center">✕</button>` : '<span></span>'}
     </div>`).join('');
+  updateKgTotals();
+}
+
+function updateKgTotals() {
+  let elab = 0, sold = 0;
+  document.querySelectorAll('.pedido-row').forEach(row => {
+    const inputs = row.querySelectorAll('input[type="number"]');
+    elab += parseFloat(inputs[0]?.value||0) || 0;
+    sold += parseFloat(inputs[1]?.value||0) || 0;
+  });
+  const te = document.getElementById('totalElab');
+  const ts = document.getElementById('totalSold');
+  if (te) te.textContent = elab.toLocaleString('es-ES') + ' kg';
+  if (ts) ts.textContent = sold.toLocaleString('es-ES') + ' kg';
+  // Update hidden fields
+  const hElab = document.getElementById('fKgElab');
+  const hSold = document.getElementById('fKgSold');
+  if (hElab) hElab.value = elab;
+  if (hSold) hSold.value = sold;
 }
 
 function addPedidoRow() {
@@ -1311,10 +1343,14 @@ function removePedidoRow(idx) {
 
 function getPedidoRows() {
   const rows = [];
-  document.querySelectorAll('.pedido-row').forEach((row, i) => {
-    const num  = row.querySelector('.pi')?.value?.trim() || '';
-    const desc = row.querySelector('.pd')?.value?.trim() || '';
-    if (num || desc) rows.push({ num, desc });
+  document.querySelectorAll('.pedido-row').forEach((row) => {
+    const inputs = row.querySelectorAll('input');
+    const num    = inputs[0]?.value?.trim() || '';
+    const desc   = inputs[1]?.value?.trim() || '';
+    const ref    = inputs[2]?.value?.trim() || '';
+    const kgElab = inputs[3]?.value || '';
+    const kgSold = inputs[4]?.value || '';
+    if (num || desc || kgElab || kgSold) rows.push({ num, desc, ref, kgElab, kgSold });
   });
   return rows;
 }
@@ -1402,16 +1438,17 @@ function openSlot(ds, slot) {
     noticeEl.innerHTML = `<div class="notice">🏭 Como encargado de taller puedes cambiar estado (En producción/Acabado/En ruta) y añadir observaciones.</div>`;
     noticeEl.style.display = 'block';
   } else if (isTec) {
-    noticeEl.innerHTML = `<div class="notice info">🔧 Puedes cambiar el estado a Planificado, Aprobado o Impreso.</div>`;
+    const ownMsg = isOwner ? ' Como autor puedes editar este pedido y añadir más números de pedido.' : ' Solo puedes editar tus propios pedidos.';
+    noticeEl.innerHTML = `<div class="notice info">🔧 Puedes cambiar el estado a Planificado, Aprobado o Impreso.${ownMsg}</div>`;
     noticeEl.style.display = 'block';
   } else {
     noticeEl.style.display = 'none';
   }
   document.getElementById('mCapNotice').style.display = 'none';
 
-  // Fields
+  // Fields - editable if admin, owner or OT_ALLOWED
   document.getElementById('mainFields').style.display = 'block';
-  setFieldsDisabled(!isAdm);
+  setFieldsDisabled(!canEditFull);
   document.getElementById('fgEstado').style.display = 'block';
   renderEstadoBtns(p);
 
@@ -1420,9 +1457,11 @@ function openSlot(ds, slot) {
   document.getElementById('fObs').value = p.observaciones||'';
   document.getElementById('obsInfo').textContent = p.obsAuthor ? `Última obs: ${p.obsAuthor} · ${fmtTs(p.obsAt)}` : '';
 
+  const isOwner = p && p.author === currentUser;
+  const canEditFull = isAdm || isOwner || OT_ALLOWED.includes(currentUser);
   document.getElementById('btnDel').style.display = isAdm ? 'inline-flex' : 'none';
   document.getElementById('btnCambiarPlanta').style.display = isAdm ? 'inline-flex' : 'none';
-  document.getElementById('btnSave').style.display = isAdm ? 'inline-flex' : 'none';
+  document.getElementById('btnSave').style.display = canEditFull ? 'inline-flex' : 'none';
   document.getElementById('btnSaveObs').style.display = 'inline-flex';
   document.getElementById('btnSaveOT').style.display = OT_ALLOWED.includes(currentUser) ? 'inline-flex' : 'none';
   document.getElementById('btnSaveOT').style.display = OT_ALLOWED.includes(currentUser) ? 'inline-flex' : 'none';
@@ -1475,8 +1514,10 @@ function fillForm(p) {
   document.getElementById('fNotas').value   = p.notas||'';
   document.getElementById('dirDisplay').textContent = p.direccion || '—';
   document.getElementById('fOrden').value = p.orden||'';
-  // Populate pedido rows
-  const rows = p.pedidos && p.pedidos.length ? p.pedidos : (p.pedido ? [{num:p.pedido, desc:''}] : []);
+  // Populate pedido rows - include kg per row
+  const rows = p.pedidos && p.pedidos.length
+    ? p.pedidos
+    : (p.pedido ? [{num:p.pedido, desc:'', ref:'', kgElab: p.kgElab||'', kgSold: p.kgSold||''}] : []);
   renderPedidoRows(rows);
 }
 
@@ -1524,13 +1565,19 @@ async function savePedido() {
   // Date changes only via drag & drop — no manual date change in form
   let newKey = null;
 
+  // Compute totals from pedido rows
+  const totalKgElab = pedidoRows.reduce((s,r) => s + (parseFloat(r.kgElab)||0), 0);
+  const totalKgSold = pedidoRows.reduce((s,r) => s + (parseFloat(r.kgSold)||0), 0);
+
   const data = {
     pedido:        pedidoRows[0]?.num || '',  // backward compat
     pedidos:       pedidoRows,
     obra,
     cliente:       obraData?.cliente||'',
     direccion:     obraData?.direccion||document.getElementById('dirDisplay').textContent,
-    fecha, kgElab, kgSold,
+    fecha,
+    kgElab:        totalKgElab,
+    kgSold:        totalKgSold,
     transportista: document.getElementById('fTransp').value,
     carga:         document.getElementById('fCarga').value,
     notas:         document.getElementById('fNotas').value.trim(),

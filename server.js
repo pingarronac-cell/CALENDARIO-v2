@@ -321,10 +321,10 @@ const server = http.createServer(async (req, res) => {
     if (!existing && data.role === 'taller')
       return sendJSON(res, 403, { error: 'Los encargados de taller no pueden crear pedidos' });
     if (existing && data.editType !== 'estado' && data.editType !== 'observaciones' && data.editType !== 'orden') {
-      // Admins can always edit; OT_ALLOWED tecnicos can also edit full pedido
-      const canEdit = data.role === 'admin' || OT_ALLOWED.includes(data.author);
+      const isOwner   = existing.author === data.author; // tecnico editing their own pedido
+      const canEdit   = data.role === 'admin' || OT_ALLOWED.includes(data.author) || isOwner;
       if (!canEdit)
-        return sendJSON(res, 403, { error: 'Solo los administradores pueden editar pedidos' });
+        return sendJSON(res, 403, { error: 'Solo puedes editar tus propios pedidos' });
     }
 
     // Capacity check (only for new pedidos or kg changes, not estado/obs edits)
