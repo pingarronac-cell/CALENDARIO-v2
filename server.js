@@ -10,7 +10,7 @@ const url  = require('url');
 const PORT    = 3000;
 
 // Users allowed to set Orden de Trabajo (OT)
-const OT_ALLOWED = ['GREGORY LAMOTHE','MARC','ROSA','CRISTINA','RAUL MORIANO','ALBERTO','JORDI PEDROSA','XAVI MUÑOZ'];
+const OT_ALLOWED = ['RAUL MORIANO','ROSA','MARC','CRISTINA','GREGORY LAMOTHE','ALBERTO','JORDI PEDROSA','XAVI MUÑOZ'];
 const DB_FILE = path.join(__dirname, 'database.json');
 
 // ── Default database ─────────────────────────────────────────

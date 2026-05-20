@@ -259,56 +259,63 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 
 /* SLOT */
 .slot {
-  border-bottom: 1px solid var(--border); min-height: 86px;
+  border-bottom: 1px solid var(--border); min-height: 140px;
   position: relative; cursor: pointer; transition: all .12s;
   background: var(--surface);
 }
 .slot:last-child { border-bottom: none; }
 .slot:hover { background: #f8faff; }
+.slot.estado-planificado:hover   { background: #ffb090 !important; }
+.slot.estado-aprobado:hover      { background: #f5f5f5 !important; }
+.slot.estado-impreso:hover       { background: #fef3a0 !important; }
+.slot.estado-en_produccion:hover { background: #bfdbfe !important; }
+.slot.estado-acabado:hover       { background: #bbf7d0 !important; }
+.slot.estado-en_ruta:hover       { background: #b0cc80 !important; }
 .slot.locked { cursor: default; }
 .slot.locked:hover { background: var(--surface); }
 .slot.festivo { background: #fef2f2 !important; cursor: not-allowed; }
 .slot.festivo:hover { background: #fef2f2 !important; }
 
 /* Slot estado backgrounds */
-.slot.estado-aprobado    { background: var(--slot-apro); }
-.slot.estado-impreso     { background: var(--slot-imp); }
-.slot.estado-en_produccion { background: var(--slot-prod); }
-.slot.estado-acabado     { background: var(--slot-acab); }
-.slot.estado-en_ruta     { background: var(--slot-ruta); }
+.slot.estado-planificado   { background: #ffc3a0 !important; }
+.slot.estado-aprobado      { background: #ffffff !important; }
+.slot.estado-impreso       { background: #fef9c3 !important; }
+.slot.estado-en_produccion { background: #dbeafe !important; }
+.slot.estado-acabado       { background: #dcfce7 !important; }
+.slot.estado-en_ruta       { background: #c8d8a0 !important; }
 
 /* Drag */
 .slot.drag-over { outline: 2px dashed var(--primary); outline-offset: -2px; background: var(--primary-light) !important; }
 .slot.dragging  { opacity: .4; }
 
 .slot-num { position: absolute; top: 4px; right: 6px; font-size: 9px; font-family: 'JetBrains Mono', monospace; color: var(--border2); }
-.slot-inner { padding: 8px 10px; display: flex; flex-direction: column; gap: 3px; }
+.slot-inner { padding: 10px 12px; display: flex; flex-direction: column; gap: 5px; }
 .slot-estado-strip { width: 3px; position: absolute; left: 0; top: 0; bottom: 0; border-radius: 2px 0 0 2px; }
 
 .slot-transport { display: flex; align-items: center; gap: 5px; }
-.t-dot   { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
-.t-label { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: .2px; }
-.slot-obra { font-size: 11px; font-weight: 600; color: var(--text); line-height: 1.3; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
-.slot-pedido { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--primary); font-weight: 500; }
+.t-dot   { width: 11px; height: 11px; border-radius: 2px; flex-shrink: 0; }
+.t-label { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .2px; }
+.slot-obra { font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.3; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.slot-pedido { font-size: 13px; font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--primary); font-weight: 500; }
 .pedido-row { display: flex; gap: 8px; margin-bottom: 6px; align-items: center; }
 .pedido-row .pi { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 600; width: 90px; flex-shrink: 0; }
 .pedido-row .pd { font-size: 12px; flex: 1; }
 .pedido-row .pr { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 16px; padding: 0 4px; flex-shrink: 0; }
 .pedido-row .pr:hover { color: var(--red); }
 .slot-kgs { display: flex; gap: 8px; margin-top: 2px; }
-.slot-kg  { font-size: 10px; display: flex; align-items: center; gap: 3px; }
+.slot-kg  { font-size: 13px; display: flex; align-items: center; gap: 3px; }
 .slot-kg-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
-.slot-kg-val { font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--text); }
+.slot-kg-val { font-size: 13px; font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--text); }
 .slot-fecha { font-size: 10px; color: var(--muted); }
 .slot-estado-badge {
   display: inline-flex; align-items: center; gap: 3px;
-  font-size: 9px; font-weight: 700; padding: 1px 6px; border-radius: 10px;
+  font-size: 12px; font-weight: 700; padding: 1px 6px; border-radius: 10px;
   margin-top: 3px; width: fit-content; letter-spacing: .3px;
 }
-.slot-author { font-size: 9px; color: var(--muted); margin-top: 3px; font-style: italic; }
+.slot-author { font-size: 11px; color: var(--muted); margin-top: 3px; font-style: italic; }
 .slot-obs-dot { width: 6px; height: 6px; background: var(--orange); border-radius: 50%; position: absolute; top: 6px; left: 8px; }
 
-.slot-empty { display: flex; align-items: center; justify-content: center; min-height: 86px; color: var(--border2); font-size: 18px; }
+.slot-empty { display: flex; align-items: center; justify-content: center; min-height: 120px; color: var(--border2); font-size: 18px; }
 .slot:hover .slot-empty { color: var(--primary); }
 .slot-festivo-x { display: flex; align-items: center; justify-content: center; min-height: 86px; color: #fca5a5; font-size: 20px; }
 
@@ -527,23 +534,17 @@ textarea.fi { resize: vertical; min-height: 70px; }
 
       <!-- MAIN FIELDS -->
       <div id="mainFields">
-        <div class="fr" style="margin-bottom:14px">
-          <div class="fg">
-            <label class="fl">Fecha de producción</label>
-            <div id="fFechaDisplay" style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--r);padding:8px 11px;font-size:13px;color:var(--text2);font-family:'JetBrains Mono',monospace;font-weight:700;">—</div>
-            <input type="hidden" id="fFecha">
-          </div>
-        </div>
+        <input type="hidden" id="fFecha">
+        <div id="fFechaDisplay" style="display:none"></div>
         <!-- PEDIDOS LIST -->
         <div class="fg" style="margin-bottom:14px">
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
             <label class="fl">Números de pedido <span style="color:var(--red)">*</span></label>
             <button type="button" class="btn" id="btnAddPedido" onclick="addPedidoRow()" style="padding:2px 10px;font-size:11px">+ Añadir</button>
           </div>
-          <div style="display:grid;grid-template-columns:1fr 1fr 1fr 80px 80px 24px;gap:4px;margin-bottom:4px;padding:0 2px">
+          <div style="display:grid;grid-template-columns:1fr 1.5fr 80px 80px 24px;gap:4px;margin-bottom:4px;padding:0 2px">
             <span style="font-size:9px;font-weight:700;color:var(--muted2);text-transform:uppercase;letter-spacing:.5px">Nº Pedido</span>
             <span style="font-size:9px;font-weight:700;color:var(--muted2);text-transform:uppercase;letter-spacing:.5px">Descripción</span>
-            <span style="font-size:9px;font-weight:700;color:var(--muted2);text-transform:uppercase;letter-spacing:.5px">Obra/referencia</span>
             <span style="font-size:9px;font-weight:700;color:#2563eb;text-transform:uppercase;letter-spacing:.5px">KG Elab</span>
             <span style="font-size:9px;font-weight:700;color:#16a34a;text-transform:uppercase;letter-spacing:.5px">KG Sold</span>
             <span></span>
@@ -781,7 +782,7 @@ const ESTADO_INFO = {
 const DIAS = ['Lunes','Martes','Miércoles','Jueves','Viernes'];
 const SLOTS = 12;
 const ADMINS    = ['ALBERTO','JORDI PEDROSA','XAVI MUÑOZ'];
-const OT_ALLOWED= ['GREGORY LAMOTHE','MARC','ROSA','CRISTINA','RAUL MORIANO','ALBERTO','JORDI PEDROSA','XAVI MUÑOZ'];
+const OT_ALLOWED= ['RAUL MORIANO','ROSA','MARC','CRISTINA','GREGORY LAMOTHE','ALBERTO','JORDI PEDROSA','XAVI MUÑOZ'];
 
 // ═══════════════════════════════════════════════════════════
 // STATE
@@ -873,11 +874,16 @@ async function doLogin() {
 
 function logout() {
   currentUser = null; userRole = 'tecnico';
+  // Reset ALL disabled states before switching user
+  document.querySelectorAll('.fi, .fs, .fi:disabled, .fs:disabled').forEach(el => {
+    el.disabled = false; el.style.opacity = '1';
+  });
   document.getElementById('app').style.display = 'none';
   document.getElementById('loginScreen').style.display = 'flex';
   document.getElementById('loginUser').value = '';
   document.getElementById('loginPin').value = '';
   document.getElementById('loginError').style.display = 'none';
+  document.getElementById('readonlyBanner').style.display = 'none';
   pedidos = {};
   closeModal(); closeUserMenu(); closeSettings();
 }
@@ -897,9 +903,13 @@ async function initApp() {
      ${userRole!=='tecnico'?`<span class="role-badge ${userRole}">${userRole==='admin'?'ADMIN':'TALLER'}</span>`:''}`;
   document.getElementById('btnSettings').style.display = userRole==='admin' ? 'inline-flex' : 'none';
   // Readonly: hide export and settings
+  // Always reset form field states when a new user logs in
+  document.querySelectorAll('#pedidoOv .fi, #pedidoOv .fs').forEach(el => {
+    el.disabled = false; el.style.opacity = '1';
+  });
+  document.getElementById('readonlyBanner').style.display = userRole === 'readonly' ? 'block' : 'none';
   if (userRole === 'readonly') {
     document.getElementById('btnSettings').style.display = 'none';
-    document.getElementById('readonlyBanner').style.display = 'block';
   }
   refreshFormLists();
 }
@@ -1016,7 +1026,7 @@ function renderCalendar() {
             ${canDrag ? `draggable="true" ondragstart="onDragStart(event,'${key}')"` : ''}>
             <div class="slot-estado-strip" style="background:${ei.color}"></div>
             <div class="slot-num">#${s+1}</div>
-              ${p.orden ? `<div style="position:absolute;bottom:5px;right:6px;color:#dc2626;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:800;letter-spacing:1px;z-index:2">${p.orden}</div>` : ''}
+              ${p.orden ? `<div style="position:absolute;bottom:5px;right:6px;color:#dc2626;font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:800;letter-spacing:1px;z-index:2">${p.orden}</div>` : ''}
             ${p.observaciones ? '<div class="slot-obs-dot"></div>' : ''}
             <div class="slot-inner" style="padding-left:14px">
 
@@ -1028,8 +1038,8 @@ function renderCalendar() {
 
               <!-- 3. KILOS -->
               <div class="slot-kgs">
-                ${p.kgElab ? `<span class="slot-kg"><span class="slot-kg-dot" style="background:#2563eb"></span><span class="slot-kg-val">${Number(p.kgElab).toLocaleString('es-ES')} kg</span><span style="color:var(--muted);font-size:9px"> Elab</span></span>` : ''}
-                ${p.kgSold ? `<span class="slot-kg"><span class="slot-kg-dot" style="background:#16a34a"></span><span class="slot-kg-val">${Number(p.kgSold).toLocaleString('es-ES')} kg</span><span style="color:var(--muted);font-size:9px"> Sold</span></span>` : ''}
+                ${p.kgElab ? `<span class="slot-kg"><span class="slot-kg-dot" style="background:#2563eb"></span><span class="slot-kg-val">${Number(p.kgElab).toLocaleString('es-ES')} kg</span><span style="color:var(--muted);font-size:12px"> Elab</span></span>` : ''}
+                ${p.kgSold ? `<span class="slot-kg"><span class="slot-kg-dot" style="background:#16a34a"></span><span class="slot-kg-val">${Number(p.kgSold).toLocaleString('es-ES')} kg</span><span style="color:var(--muted);font-size:12px"> Sold</span></span>` : ''}
               </div>
 
               <!-- 4. NOTAS TÉCNICO + OBSERVACIONES TALLER -->
@@ -1278,22 +1288,19 @@ function onObraChange(val) {
 }
 
 // ── PEDIDO ROWS ──────────────────────────────────────────────
-function renderPedidoRows(rows) {
+function renderPedidoRows(rows, isDisabled) {
   const container = document.getElementById('pedidosRows');
   if (!container) return;
-  const isDisabled = document.getElementById('fObra')?.disabled || false;
+  isDisabled = isDisabled === true; // explicit boolean, never derived from DOM
   if (!rows.length) rows = [{ num: '', desc: '', ref: '', kgElab: '', kgSold: '' }];
   container.innerHTML = rows.map((r, i) => `
-    <div class="pedido-row" id="prow${i}" style="display:grid;grid-template-columns:1fr 1fr 1fr 80px 80px 24px;gap:4px;margin-bottom:4px">
+    <div class="pedido-row" id="prow${i}" style="display:grid;grid-template-columns:1fr 1.5fr 80px 80px 24px;gap:4px;margin-bottom:4px">
       <input class="fi pi" type="text" maxlength="10" placeholder="Ej: 60001"
         value="${r.num||''}" oninput="onPedidoNumInput(this,${i})"
         style="font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;padding:6px 8px"
         ${isDisabled?'disabled':''}/>
-      <input class="fi pd" type="text" maxlength="30" placeholder="Descripción..."
+      <input class="fi pd" type="text" maxlength="30" placeholder="Descripción corta..."
         value="${(r.desc||'').slice(0,30)}" oninput="this.value=this.value.slice(0,30);updateKgTotals()"
-        style="font-size:12px;padding:6px 8px" ${isDisabled?'disabled':''}/>
-      <input class="fi" type="text" maxlength="40" placeholder="Ref. obra (opcional)"
-        value="${r.ref||''}" oninput="updateKgTotals()"
         style="font-size:12px;padding:6px 8px" ${isDisabled?'disabled':''}/>
       <input class="fi" type="number" min="0" placeholder="0"
         value="${r.kgElab||''}" oninput="updateKgTotals()"
@@ -1347,10 +1354,9 @@ function getPedidoRows() {
     const inputs = row.querySelectorAll('input');
     const num    = inputs[0]?.value?.trim() || '';
     const desc   = inputs[1]?.value?.trim() || '';
-    const ref    = inputs[2]?.value?.trim() || '';
-    const kgElab = inputs[3]?.value || '';
-    const kgSold = inputs[4]?.value || '';
-    if (num || desc || kgElab || kgSold) rows.push({ num, desc, ref, kgElab, kgSold });
+    const kgElab = inputs[2]?.value || '';
+    const kgSold = inputs[3]?.value || '';
+    if (num || desc || kgElab || kgSold) rows.push({ num, desc, kgElab, kgSold });
   });
   return rows;
 }
@@ -1421,50 +1427,62 @@ function openSlot(ds, slot) {
   const p = pedidos[pKey(ds, slot)];
   if (!p) return;
   editKey = pKey(ds, slot); editIsNew = false; editDateStr = ds;
-  const isAdm = userRole==='admin', isTec=userRole==='tecnico', isTaller=userRole==='taller';
 
+  // ── Permissions (defined FIRST) ──────────────────────────
+  const isAdm    = userRole === 'admin';
+  const isTec    = userRole === 'tecnico';
+  const isTaller = userRole === 'taller';
+  const isOwner  = p.author === currentUser;
+  const canOT    = OT_ALLOWED.includes(currentUser);
+  // Admin: edits everything
+  // Tecnico: edits own pedidos + OT_ALLOWED can edit OT of any pedido
+  // Taller: can only change estado and add observations
+  const canEditFull = isAdm || (isTec && isOwner);
+  const canEstado   = isAdm || isTec || isTaller; // all roles can change estado (within their allowed states)
+
+  // ── Fill form ─────────────────────────────────────────────
   document.getElementById('mTitle').textContent = 'Pedido';
   document.getElementById('mSub').textContent = `${DIAS[new Date(ds+'T12:00:00').getDay()-1]} ${fmtH(ds)} · #${slot+1}`;
-  fillForm(p);
-  // Fecha display: always shows the slot's date (not editable in form)
-  document.getElementById('fFechaDisplay').textContent = fmtH(editDateStr);
+  fillForm(p, !canEditFull);
+  document.getElementById('mAinfo').textContent = `Creado por ${p.author||'?'} · ${fmtTs(p.createdAt)}${p.editedBy?' · ✏️ '+p.editedBy:''}`;
   const otLbl = document.getElementById('otPermLabel');
-  if (otLbl) otLbl.textContent = OT_ALLOWED.includes(currentUser) ? '(puedes editar)' : '(solo Gregory, Marc, Rosa, Cristina, Raúl)';
-  document.getElementById('mAinfo').textContent = `Creado por ${p.author||'?'} · ${fmtTs(p.createdAt)}${p.editedBy?` · ✏️ ${p.editedBy}`:''}`;
+  if (otLbl) otLbl.textContent = canOT ? '(puedes editar)' : '(solo Raúl, Rosa, Marc, Cristina)';
 
-  // Notice
+  // ── Notice ────────────────────────────────────────────────
   const noticeEl = document.getElementById('mNotice');
   if (isTaller) {
-    noticeEl.innerHTML = `<div class="notice">🏭 Como encargado de taller puedes cambiar estado (En producción/Acabado/En ruta) y añadir observaciones.</div>`;
+    noticeEl.innerHTML = '<div class="notice">🏭 Puedes cambiar estado (En producción / Acabado / En ruta) y añadir observaciones.</div>';
     noticeEl.style.display = 'block';
   } else if (isTec) {
-    const ownMsg = isOwner ? ' Como autor puedes editar este pedido y añadir más números de pedido.' : ' Solo puedes editar tus propios pedidos.';
-    noticeEl.innerHTML = `<div class="notice info">🔧 Puedes cambiar el estado a Planificado, Aprobado o Impreso.${ownMsg}</div>`;
+    const editMsg = canEditFull ? ' Eres el autor: puedes editar este pedido.' : ' Solo puedes editar tus propios pedidos.';
+    noticeEl.innerHTML = `<div class="notice info">🔧 Puedes cambiar estado a Planificado, Aprobado o Impreso.${editMsg}</div>`;
     noticeEl.style.display = 'block';
   } else {
     noticeEl.style.display = 'none';
   }
   document.getElementById('mCapNotice').style.display = 'none';
 
-  // Fields - editable if admin, owner or OT_ALLOWED
+  // ── Main fields ───────────────────────────────────────────
   document.getElementById('mainFields').style.display = 'block';
   setFieldsDisabled(!canEditFull);
+
+  // ── Estado buttons (always visible, enabled per role) ─────
   document.getElementById('fgEstado').style.display = 'block';
   renderEstadoBtns(p);
 
-  // Observaciones
+  // ── Observaciones (all roles can add) ─────────────────────
   document.getElementById('fgObs').style.display = 'block';
-  document.getElementById('fObs').value = p.observaciones||'';
+  document.getElementById('fObs').value = p.observaciones || '';
+  document.getElementById('fObs').disabled = false;
   document.getElementById('obsInfo').textContent = p.obsAuthor ? `Última obs: ${p.obsAuthor} · ${fmtTs(p.obsAt)}` : '';
 
-  const isOwner = p && p.author === currentUser;
-  const canEditFull = isAdm || isOwner || OT_ALLOWED.includes(currentUser);
-  document.getElementById('btnDel').style.display = isAdm ? 'inline-flex' : 'none';
-  document.getElementById('btnCambiarPlanta').style.display = isAdm ? 'inline-flex' : 'none';
-  document.getElementById('btnSave').style.display = canEditFull ? 'inline-flex' : 'none';
-  document.getElementById('btnSaveObs').style.display = 'inline-flex';
-  document.getElementById('btnSaveOT').style.display = OT_ALLOWED.includes(currentUser) ? 'inline-flex' : 'none';
-  document.getElementById('btnSaveOT').style.display = OT_ALLOWED.includes(currentUser) ? 'inline-flex' : 'none';
+  // ── Buttons ───────────────────────────────────────────────
+  document.getElementById('btnDel').style.display            = isAdm ? 'inline-flex' : 'none';
+  document.getElementById('btnCambiarPlanta').style.display  = isAdm ? 'inline-flex' : 'none';
+  document.getElementById('btnSave').style.display           = canEditFull ? 'inline-flex' : 'none';
+  document.getElementById('btnSaveObs').style.display        = 'inline-flex';
+  document.getElementById('btnSaveOT').style.display         = canOT ? 'inline-flex' : 'none';
+
   document.getElementById('pedidoOv').classList.add('open');
 }
 
@@ -1473,6 +1491,7 @@ function renderEstadoBtns(p) {
     admin:   ['planificado','aprobado','impreso','en_produccion','acabado','en_ruta'],
     tecnico: ['planificado','aprobado','impreso'],
     taller:  ['en_produccion','acabado','en_ruta'],
+    readonly:[]
   };
   const myAllowed = allowed[userRole] || [];
   const current = p?.estado || 'planificado';
@@ -1497,14 +1516,14 @@ function clearForm() {
   ['fKgElab','fKgSold','fNotas','fObs','fObra','fObraVal','fOrden'].forEach(id=>{ const el=document.getElementById(id); if(el) el.value=''; });
   document.getElementById('fTransp').value='';
   document.getElementById('fCarga').value='';
-  renderPedidoRows([]);
+  renderPedidoRows([], false);
   document.getElementById('dirDisplay').textContent='—';
   document.getElementById('obraDropdown').style.display='none';
   document.getElementById('obraValidMsg').style.display='none';
   document.getElementById('mCapNotice').style.display='none';
 }
 
-function fillForm(p) {
+function fillForm(p, disabled) {
   document.getElementById('fObra').value     = p.obra||'';
   document.getElementById('fObraVal').value  = p.obra||'';
   document.getElementById('fKgElab').value  = p.kgElab||'';
@@ -1514,11 +1533,11 @@ function fillForm(p) {
   document.getElementById('fNotas').value   = p.notas||'';
   document.getElementById('dirDisplay').textContent = p.direccion || '—';
   document.getElementById('fOrden').value = p.orden||'';
-  // Populate pedido rows - include kg per row
+  // Populate pedido rows - pass disabled explicitly
   const rows = p.pedidos && p.pedidos.length
     ? p.pedidos
-    : (p.pedido ? [{num:p.pedido, desc:'', ref:'', kgElab: p.kgElab||'', kgSold: p.kgSold||''}] : []);
-  renderPedidoRows(rows);
+    : (p.pedido ? [{num:p.pedido, desc:'', kgElab: p.kgElab||'', kgSold: p.kgSold||''}] : []);
+  renderPedidoRows(rows, disabled === true);
 }
 
 function setFieldsDisabled(d) {
