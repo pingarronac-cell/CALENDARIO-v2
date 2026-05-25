@@ -210,11 +210,435 @@
           "observaciones": "",
           "obsAuthor": "",
           "obsAt": null
+        },
+        "2026-05-28__0": {
+          "pedido": "64895",
+          "pedidos": [
+            {
+              "num": "64895",
+              "desc": "RIOSTRAS EJE 1-7",
+              "kgElab": "256",
+              "kgSold": ""
+            },
+            {
+              "num": "64896",
+              "desc": "RIOSTRAS EJE 1-7 (SOLDADO)",
+              "kgElab": "",
+              "kgSold": "5896"
+            }
+          ],
+          "obra": "430820-0002 ESTACION DE SANTS UTE - C4066 UTE ESTACION DE SANTS",
+          "cliente": "ESTACION DE SANTS UTE",
+          "direccion": "PLAZA PAISOS CATALANES, 01   BARCELONA, 08014, BARCELONA",
+          "fecha": "2026-05-28",
+          "kgElab": 256,
+          "kgSold": 5896,
+          "transportista": "",
+          "carga": "",
+          "notas": "",
+          "orden": "",
+          "author": "ROSA",
+          "role": "tecnico",
+          "newKey": null,
+          "createdAt": 1779617250201,
+          "editedBy": "ROSA",
+          "editedAt": 1779618406387,
+          "estado": "en_produccion",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null,
+          "estadoAuthor": "ANDRIY",
+          "estadoAt": 1779697192293
+        },
+        "2026-05-26__0": {
+          "pedido": "63984",
+          "pedidos": [
+            {
+              "num": "63984",
+              "desc": "LOSA CIM COTA +23.25",
+              "kgElab": "18954",
+              "kgSold": ""
+            }
+          ],
+          "obra": "430047-0006 ACCIONA CONSTRUCCION, S.A. - B9043 INTEGRACION FERROCARRIL SANT FELIU",
+          "cliente": "ACCIONA CONSTRUCCION, S.A.",
+          "direccion": "C/JOSEP TARRADELLAS, 21 (ST.FELIU LL.), BARCELONA",
+          "fecha": "2026-05-26",
+          "kgElab": 18954,
+          "kgSold": 0,
+          "transportista": "",
+          "carga": "",
+          "notas": "",
+          "orden": "",
+          "author": "ROSA",
+          "role": "tecnico",
+          "newKey": null,
+          "createdAt": 1779617351271,
+          "editedBy": null,
+          "editedAt": null,
+          "estado": "planificado",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null
+        },
+        "2026-05-29__0": {
+          "pedido": "56894",
+          "pedidos": [
+            {
+              "num": "56894",
+              "desc": "PILARES COTA +23.58",
+              "kgElab": "18569",
+              "kgSold": ""
+            }
+          ],
+          "obra": "430009-0002 DRAGADOS S.A. - 224-717 C.C.TERMINAL G ROYAL CARIBBEAN PORT BARCEL",
+          "cliente": "DRAGADOS S.A.",
+          "direccion": "Muelle adosado 3 Terminal G Port de Barcelona., 08039, Barcelona, BARCELONA",
+          "fecha": "2026-05-29",
+          "kgElab": 18569,
+          "kgSold": 0,
+          "transportista": "",
+          "carga": "",
+          "notas": "",
+          "orden": "",
+          "author": "ROSA",
+          "role": "admin",
+          "newKey": null,
+          "createdAt": 1779617838329,
+          "editedBy": "ALBERTO",
+          "editedAt": 1779698441745,
+          "estado": "planificado",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null
+        },
+        "2026-05-26__1": {
+          "pedido": "65894",
+          "pedidos": [
+            {
+              "num": "65894",
+              "desc": "PILARES PL. 3RA",
+              "kgElab": "",
+              "kgSold": "2978"
+            }
+          ],
+          "obra": "430417-0001 AVINTIA PROYECTOS Y CONSTRUCCIONES, S.L. - (BAR070A) 70 VIV EN TERRASSA - LANDCO",
+          "cliente": "AVINTIA PROYECTOS Y CONSTRUCCIONES, S.L.",
+          "direccion": "Avinguda de les Arts 51 de Terrassa, TERRASSA, BARCELONA",
+          "fecha": "2026-05-26",
+          "kgElab": 0,
+          "kgSold": 2978,
+          "transportista": "DAVID RODRIGUEZ",
+          "carga": "1ra carga",
+          "notas": "",
+          "orden": "",
+          "author": "ROSA",
+          "role": "tecnico",
+          "newKey": null,
+          "createdAt": 1779618197439,
+          "editedBy": null,
+          "editedAt": null,
+          "estado": "en_ruta",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null,
+          "estadoAuthor": "ROBERTO",
+          "estadoAt": 1779618644763
+        },
+        "2026-05-27__0": {
+          "pedido": "58975",
+          "pedidos": [
+            {
+              "num": "58975",
+              "desc": "MUROS ZONA CALLE",
+              "kgElab": "23958",
+              "kgSold": ""
+            }
+          ],
+          "obra": "430824-0001 REHABILITACIO ETAP TER - CCH30 - REHABILITACIO ETAP TER F1",
+          "cliente": "REHABILITACIO ETAP TER",
+          "direccion": "Ctra. Aigües, 6, CARDEDEU, CARDEDEU, BARCELONA",
+          "fecha": "2026-05-27",
+          "kgElab": 23958,
+          "kgSold": 0,
+          "transportista": "",
+          "carga": "",
+          "notas": "",
+          "orden": "",
+          "author": "ROSA",
+          "role": "admin",
+          "newKey": null,
+          "createdAt": 1779618260317,
+          "editedBy": "ALBERTO",
+          "editedAt": 1779698666347,
+          "estado": "acabado",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null
+        },
+        "2026-05-27__1": {
+          "pedido": "63589",
+          "pedidos": [
+            {
+              "num": "63589",
+              "desc": "FORJ RETICULAR PL. 6TA",
+              "kgElab": "12589",
+              "kgSold": ""
+            }
+          ],
+          "obra": "430584-0001 VIALSER EDIFICACION Y OBRA CIVIL, S.L. - 463 PARC CIRCULAR MATARO",
+          "cliente": "VIALSER EDIFICACION Y OBRA CIVIL, S.L.",
+          "direccion": "Carrer Vapor Gordils, nº22, 08304, Mataró., BARCELONA",
+          "fecha": "2026-05-27",
+          "kgElab": 12589,
+          "kgSold": 0,
+          "transportista": "",
+          "carga": "",
+          "notas": "",
+          "orden": "",
+          "author": "CRISTINA",
+          "role": "tecnico",
+          "newKey": null,
+          "createdAt": 1779619146836,
+          "editedBy": "CRISTINA",
+          "editedAt": 1779619198614,
+          "estado": "en_produccion",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null,
+          "estadoAuthor": "CARLOS",
+          "estadoAt": 1779619556294
+        },
+        "2026-05-27__2": {
+          "pedido": "0000",
+          "pedidos": [
+            {
+              "num": "0000",
+              "desc": "",
+              "kgElab": "",
+              "kgSold": ""
+            }
+          ],
+          "obra": "430814-0001 UTE EDIFICI HOSPITAL JOAN XXIII - HOSPITAL JOAN XXIII - TARRAGONA (M)",
+          "cliente": "UTE EDIFICI HOSPITAL JOAN XXIII",
+          "direccion": "TARRAGONA",
+          "fecha": "2026-05-27",
+          "kgElab": 0,
+          "kgSold": 0,
+          "transportista": "",
+          "carga": "",
+          "notas": "90 MALLAS 20.20.05",
+          "orden": "",
+          "author": "JOAN LLADOS",
+          "role": "tecnico",
+          "newKey": null,
+          "createdAt": 1779619418551,
+          "editedBy": "JOAN LLADOS",
+          "editedAt": 1779619427430,
+          "estado": "aprobado",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null
+        },
+        "2026-05-28__1": {
+          "pedido": "63489",
+          "pedidos": [
+            {
+              "num": "63489",
+              "desc": "BLOC. C PASTILLA 50",
+              "kgElab": "5894",
+              "kgSold": ""
+            }
+          ],
+          "obra": "430814-0001 UTE EDIFICI HOSPITAL JOAN XXIII - HOSPITAL JOAN XXIII - TARRAGONA (M)",
+          "cliente": "UTE EDIFICI HOSPITAL JOAN XXIII",
+          "direccion": "TARRAGONA",
+          "fecha": "2026-05-28",
+          "kgElab": 5894,
+          "kgSold": 0,
+          "transportista": "",
+          "carga": "",
+          "notas": "3 ROLLOS DE ALAMBRE",
+          "orden": "",
+          "author": "JOAN LLADOS",
+          "role": "tecnico",
+          "newKey": null,
+          "createdAt": 1779619521690,
+          "editedBy": null,
+          "editedAt": null,
+          "estado": "planificado",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null
+        },
+        "2026-05-28__2": {
+          "pedido": "64758",
+          "pedidos": [
+            {
+              "num": "64758",
+              "desc": "PILOTES ZONA 2",
+              "kgElab": "",
+              "kgSold": "11892"
+            }
+          ],
+          "obra": "430858-0001 E2K ADD VALUE CONSTRUCTION, S.L. - 25040 - MELCOMBE SANT QUIRZE",
+          "cliente": "E2K ADD VALUE CONSTRUCTION, S.L.",
+          "direccion": "C/BERGUEDA C/DE L´ANOIA (SANT QUIRZE V.), BARCELONA",
+          "fecha": "2026-05-28",
+          "kgElab": 0,
+          "kgSold": 11892,
+          "transportista": "",
+          "carga": "",
+          "notas": "",
+          "orden": "",
+          "author": "ANGEL BORDONADA",
+          "role": "tecnico",
+          "newKey": null,
+          "createdAt": 1779619702367,
+          "editedBy": null,
+          "editedAt": null,
+          "estado": "aprobado",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null,
+          "estadoAuthor": "ANGEL BORDONADA",
+          "estadoAt": 1779619707599
+        },
+        "2026-05-26__2": {
+          "pedido": "66895",
+          "pedidos": [
+            {
+              "num": "66895",
+              "desc": "TECHO PLANTA BAJA",
+              "kgElab": "22589",
+              "kgSold": ""
+            }
+          ],
+          "obra": "430012-0001 OHLA - 108496 53 VIV C/ PARE PEREZ DEL PULGAR - BARCELONA",
+          "cliente": "OHLA",
+          "direccion": "C/ PARE PEREZ DEL PULGAR, 2-5, BARCELONA",
+          "fecha": "2026-05-26",
+          "kgElab": 22589,
+          "kgSold": 0,
+          "transportista": "",
+          "carga": "",
+          "notas": "",
+          "orden": "",
+          "author": "ROSA",
+          "role": "tecnico",
+          "newKey": null,
+          "createdAt": 1779697106022,
+          "editedBy": null,
+          "editedAt": null,
+          "estado": "planificado",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null
+        },
+        "2026-05-29__1": {
+          "pedido": "63548",
+          "pedidos": [
+            {
+              "num": "63548",
+              "desc": "MUROS EN TALUD +80.26",
+              "kgElab": "5689",
+              "kgSold": ""
+            }
+          ],
+          "obra": "430009-0001 DRAGADOS S.A. - 224-718 126 VIV NEINOR ESPLUGUES",
+          "cliente": "DRAGADOS S.A.",
+          "direccion": "Calle Sant Jordi esq. calle del Carme - ESPLUGUES, Esplugues de Llobregat., BARCELONA",
+          "fecha": "2026-05-29",
+          "kgElab": 5689,
+          "kgSold": 0,
+          "transportista": "",
+          "carga": "",
+          "notas": "",
+          "orden": "",
+          "author": "ROSA",
+          "role": "tecnico",
+          "newKey": null,
+          "createdAt": 1779697462930,
+          "editedBy": "ROSA",
+          "editedAt": 1779697522533,
+          "estado": "planificado",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null
+        },
+        "2026-05-26__3": {
+          "pedido": "62549",
+          "pedidos": [
+            {
+              "num": "62549",
+              "desc": "TECHO + PILARES PL 3",
+              "kgElab": "9256",
+              "kgSold": ""
+            }
+          ],
+          "obra": "430462-0004 CERTIS CONSTRUCTORA OIS, S.A. - 6FJ2523 EDIF PLURIF 27 HAB MARTORELLES",
+          "cliente": "CERTIS CONSTRUCTORA OIS, S.A.",
+          "direccion": "calle horta 15, Martorelles, 08107, MARTORELLES, BARCELONA",
+          "fecha": "2026-05-26",
+          "kgElab": 9256,
+          "kgSold": 0,
+          "transportista": "",
+          "carga": "",
+          "notas": "",
+          "orden": "",
+          "author": "ASIEL CARMONA",
+          "role": "tecnico",
+          "newKey": null,
+          "createdAt": 1779697776181,
+          "editedBy": "ASIEL CARMONA",
+          "editedAt": 1779697963499,
+          "estado": "planificado",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null
+        },
+        "2026-05-28__3": {
+          "pedido": "62358",
+          "pedidos": [
+            {
+              "num": "62358",
+              "desc": "PILARES + ESCALERAS PL 5 A PL",
+              "kgElab": "9499",
+              "kgSold": ""
+            }
+          ],
+          "obra": "430462-0004 CERTIS CONSTRUCTORA OIS, S.A. - 6FJ2523 EDIF PLURIF 27 HAB MARTORELLES",
+          "cliente": "CERTIS CONSTRUCTORA OIS, S.A.",
+          "direccion": "calle horta 15, Martorelles, 08107, MARTORELLES, BARCELONA",
+          "fecha": "2026-05-28",
+          "kgElab": 9499,
+          "kgSold": 0,
+          "transportista": "",
+          "carga": "",
+          "notas": "",
+          "orden": "",
+          "author": "JOAN LLADOS",
+          "role": "tecnico",
+          "newKey": null,
+          "createdAt": 1779698052660,
+          "editedBy": null,
+          "editedAt": null,
+          "estado": "aprobado",
+          "observaciones": "",
+          "obsAuthor": "",
+          "obsAt": null,
+          "estadoAuthor": "JOAN LLADOS",
+          "estadoAt": 1779698070372
         }
       },
-      "festivos": [],
+      "festivos": [
+        {
+          "date": "2026-05-25",
+          "label": "SEGUNDA PASCUA"
+        }
+      ],
       "capacidad": {
-        "elaborado": 50000,
+        "elaborado": 90000,
         "soldado": 20000
       },
       "transportistas": [
@@ -334,9 +758,14 @@
           "obsAt": null
         }
       },
-      "festivos": [],
+      "festivos": [
+        {
+          "date": "2026-05-25",
+          "label": "SEGUNDA PASCUA"
+        }
+      ],
       "capacidad": {
-        "elaborado": 40000,
+        "elaborado": 60000,
         "soldado": 15000
       },
       "transportistas": [
@@ -931,7 +1360,8 @@
       "nombre": "6FJ2523 EDIF PLURIF 27 HAB MARTORELLES",
       "label": "430462-0004 CERTIS CONSTRUCTORA OIS, S.A. - 6FJ2523 EDIF PLURIF 27 HAB MARTORELLES",
       "direccion": "calle horta 15, Martorelles, 08107, MARTORELLES, BARCELONA",
-      "provincia": "BARCELONA"
+      "provincia": "BARCELONA",
+      "maxKg": 9500
     },
     {
       "codigo": "430462-0005",

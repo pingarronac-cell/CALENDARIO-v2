@@ -321,9 +321,17 @@ const server = http.createServer(async (req, res) => {
     if (!existing && data.role === 'taller')
       return sendJSON(res, 403, { error: 'Los encargados de taller no pueden crear pedidos' });
     if (existing && data.editType !== 'estado' && data.editType !== 'observaciones' && data.editType !== 'orden') {
-      const isOwner   = existing.author === data.author; // tecnico editing their own pedido
+      const isOwner   = existing.author === data.author;
+      const isTaller  = data.role === 'taller';
       const canEdit   = data.role === 'admin' || OT_ALLOWED.includes(data.author) || isOwner;
-      if (!canEdit)
+      // Taller can update transportista and carga only
+      if (isTaller && data.editType === 'transporte') {
+        db.plantas[planta].pedidos[key].transportista = data.transportista || existing.transportista;
+        db.plantas[planta].pedidos[key].carga         = data.carga         || existing.carga;
+        saveDB(db);
+        return sendJSON(res, 200, { ok: true, pedido: db.plantas[planta].pedidos[key] });
+      }
+      if (!canEdit && !isTaller)
         return sendJSON(res, 403, { error: 'Solo puedes editar tus propios pedidos' });
     }
 
@@ -402,13 +410,20 @@ const server = http.createServer(async (req, res) => {
         };
         // Handle date change: move pedido to new date/slot
         if (data.newKey && data.newKey !== key) {
+          const newDateStr = data.newKey.split('__')[0];
+          // Permission: admin always, tecnico only if owner and estado is planificado
+          const isOwner = existing.author === data.author;
+          const isPlanificado = !existing.estado || existing.estado === 'planificado';
+          const canMove = data.role === 'admin' || (data.role === 'tecnico' && isOwner && isPlanificado);
+          if (!canMove) return sendJSON(res, 403, { error: 'Solo puedes mover pedidos en estado Planificado' });
+          // Check festivo on destination
+          if (db.plantas[planta].festivos.some(f => (typeof f==='object'?f.date:f) === newDateStr))
+            return sendJSON(res, 403, { error: 'El día destino es festivo' });
           const p = db.plantas[planta].pedidos[key];
           delete db.plantas[planta].pedidos[key];
-          // Find next available slot on new date
-          const newDateStr = data.newKey.split('__')[0];
           let slot = 0;
           while (db.plantas[planta].pedidos[`${newDateStr}__${slot}`]) slot++;
-          db.plantas[planta].pedidos[`${newDateStr}__${slot}`] = p;
+          db.plantas[planta].pedidos[`${newDateStr}__${slot}`] = { ...p, fecha: newDateStr, editedBy: data.author, editedAt: Date.now() };
           compactDay(db, planta, dateStr);
           saveDB(db);
           return sendJSON(res, 200, { ok: true, movedTo: `${newDateStr}__${slot}` });

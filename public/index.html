@@ -58,9 +58,10 @@
 body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; font-size: 13px; }
 
 /* ─── SCROLLBAR ─── */
-::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+::-webkit-scrollbar { width: 14px; height: 14px; }
+::-webkit-scrollbar-track { background: #e2e5ea; border-radius: 7px; }
+::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 7px; border: 3px solid #e2e5ea; }
+::-webkit-scrollbar-thumb:hover { background: #64748b; }
 
 /* ─── LOGIN ─── */
 #loginScreen {
@@ -296,7 +297,7 @@ body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--tex
 .t-dot   { width: 11px; height: 11px; border-radius: 2px; flex-shrink: 0; }
 .t-label { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .2px; }
 .slot-obra { font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.3; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
-.slot-pedido { font-size: 13px; font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--primary); font-weight: 500; }
+.slot-pedido { font-family: 'JetBrains Mono', monospace; font-size: 15px; color: var(--primary); font-weight: 800; line-height: 1.5; }
 .pedido-row { display: flex; gap: 8px; margin-bottom: 6px; align-items: center; }
 .pedido-row .pi { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 600; width: 90px; flex-shrink: 0; }
 .pedido-row .pd { font-size: 12px; flex: 1; }
@@ -430,9 +431,16 @@ textarea.fi { resize: vertical; min-height: 70px; }
 /* PRINT */
 @media print {
   .topbar, .sumbar, .overlay, .loading-bar { display: none !important; }
-  body { background: #fff; }
+  body { background: #fff; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .slot { min-height: 60px; }
   .day-head { background: #f5f5f5 !important; }
+  /* Preserve slot estado background colors in print */
+  .slot.estado-planificado   { background: #ffc3a0 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .slot.estado-aprobado      { background: #ffffff !important; }
+  .slot.estado-impreso       { background: #fef9c3 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .slot.estado-en_produccion { background: #dbeafe !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .slot.estado-acabado       { background: #dcfce7 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .slot.estado-en_ruta       { background: #c8d8a0 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
 
 @media (max-width: 640px) {
@@ -553,6 +561,7 @@ textarea.fi { resize: vertical; min-height: 70px; }
           <div id="kgTotals" style="font-size:11px;color:var(--muted2);margin-top:4px;font-family:'JetBrains Mono',monospace;display:flex;gap:16px;padding:4px 2px;border-top:1px solid var(--border)">
             <span>Total: <b id="totalElab" style="color:#2563eb">0 kg</b> Elab · <b id="totalSold" style="color:#16a34a">0 kg</b> Sold</span>
           </div>
+          <div id="kgOverWarn" style="display:none;font-size:11px;color:var(--red);font-weight:600;margin-top:3px;padding:4px 8px;background:#fef2f2;border-radius:4px;border:1px solid #fca5a5"></div>
           <div id="pedidoValidMsg" style="display:none;font-size:11px;color:var(--red);margin-top:4px">⚠ Introduce al menos un número de pedido</div>
         </div>
         <div class="fg" style="margin-bottom:14px;position:relative" id="obraWrap">
@@ -622,7 +631,7 @@ textarea.fi { resize: vertical; min-height: 70px; }
         <button class="btn" onclick="closeModal()">Cerrar</button>
         <button class="btn success" id="btnSaveObs" style="display:none" onclick="saveObservaciones()">💬 Guardar obs.</button>
         <button class="btn" id="btnSaveOT" style="display:none;color:#dc2626;border-color:#fca5a5" onclick="saveOrden()">🔴 Guardar OT</button>
-        <button class="btn primary" id="btnSave" style="display:none" onclick="savePedido()">Guardar pedido</button>
+        <button class="btn primary" id="btnSave" style="display:none" onclick="savePedido()">Guardar</button>
       </div>
     </div>
   </div>
@@ -782,6 +791,8 @@ const ESTADO_INFO = {
 const DIAS = ['Lunes','Martes','Miércoles','Jueves','Viernes'];
 const SLOTS = 12;
 const ADMINS    = ['ALBERTO','JORDI PEDROSA','XAVI MUÑOZ'];
+const SLOT_MAX_KG = 24000; // Default max kg per slot (one truck)
+
 const OT_ALLOWED= ['RAUL MORIANO','ROSA','MARC','CRISTINA','GREGORY LAMOTHE','ALBERTO','JORDI PEDROSA','XAVI MUÑOZ'];
 
 // ═══════════════════════════════════════════════════════════
@@ -957,12 +968,13 @@ async function loadAndRender() {
 function renderPedidosHtml(p) {
   if (p.pedidos && p.pedidos.length) {
     return p.pedidos.map(r => {
-      let html = '<span style="font-family:JetBrains Mono,monospace;font-weight:700">' + (r.num||'') + '</span>';
-      if (r.desc) html += ' <span style="color:#4a5568;font-weight:400;font-size:10px">· ' + r.desc + '</span>';
+      let html = '<span style="font-family:\'JetBrains Mono\',monospace;font-weight:900;font-size:15px;color:var(--primary)">' + (r.num||'') + '</span>';
+      if (r.desc) html += '<br><span style="color:#4a5568;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:0.3px">' + r.desc + '</span>';
       return html;
-    }).join('<br>');
+    }).join('<div style="margin:3px 0;border-top:1px dashed #e2e5ea"></div>');
   }
-  return p.pedido || '';
+  if (p.pedido) return '<span style="font-family:\'JetBrains Mono\',monospace;font-weight:900;font-size:15px">' + p.pedido + '</span>';
+  return '';
 }
 
 function render() { renderCalendar(); renderSummary(); }
@@ -1039,7 +1051,7 @@ function renderCalendar() {
               <!-- 3. KILOS -->
               <div class="slot-kgs">
                 ${p.kgElab ? `<span class="slot-kg"><span class="slot-kg-dot" style="background:#2563eb"></span><span class="slot-kg-val">${Number(p.kgElab).toLocaleString('es-ES')} kg</span><span style="color:var(--muted);font-size:12px"> Elab</span></span>` : ''}
-                ${p.kgSold ? `<span class="slot-kg"><span class="slot-kg-dot" style="background:#16a34a"></span><span class="slot-kg-val">${Number(p.kgSold).toLocaleString('es-ES')} kg</span><span style="color:var(--muted);font-size:12px"> Sold</span></span>` : ''}
+                ${p.kgSold ? `<span class="slot-kg"><span class="slot-kg-dot" style="background:#dc2626"></span><span class="slot-kg-val" style="color:#dc2626">${Number(p.kgSold).toLocaleString('es-ES')} kg</span><span style="color:#dc2626;font-size:12px;font-weight:700"> Sold</span></span>` : ''}
               </div>
 
               <!-- 4. NOTAS TÉCNICO + OBSERVACIONES TALLER -->
@@ -1280,11 +1292,14 @@ function selectObra(label) {
   document.getElementById('obraDropdown').style.display = 'none';
   document.getElementById('obraValidMsg').style.display = 'none';
   document.getElementById('dirDisplay').textContent = o?.direccion || '—';
+  updateKgTotals(); // refresh max kg for this obra
 }
 
 function onObraChange(val) {
   const obra = getObraData(val);
   document.getElementById('dirDisplay').textContent = obra?.direccion || '—';
+  // Update slot max kg warning threshold
+  updateKgTotals();
 }
 
 // ── PEDIDO ROWS ──────────────────────────────────────────────
@@ -1299,9 +1314,10 @@ function renderPedidoRows(rows, isDisabled) {
         value="${r.num||''}" oninput="onPedidoNumInput(this,${i})"
         style="font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;padding:6px 8px"
         ${isDisabled?'disabled':''}/>
-      <input class="fi pd" type="text" maxlength="30" placeholder="Descripción corta..."
-        value="${(r.desc||'').slice(0,30)}" oninput="this.value=this.value.slice(0,30);updateKgTotals()"
-        style="font-size:12px;padding:6px 8px" ${isDisabled?'disabled':''}/>
+      <input class="fi pd" type="text" maxlength="30" placeholder="DESCRIPCIÓN CORTA..."
+        value="${(r.desc||'').slice(0,30).toUpperCase()}" 
+        oninput="this.value=this.value.toUpperCase().slice(0,30);updateKgTotals()"
+        style="font-size:12px;padding:6px 8px;font-weight:700;text-transform:uppercase" ${isDisabled?'disabled':''}/>
       <input class="fi" type="number" min="0" placeholder="0"
         value="${r.kgElab||''}" oninput="updateKgTotals()"
         style="font-size:12px;padding:6px 8px;color:#2563eb;font-weight:600" ${isDisabled?'disabled':''}/>
@@ -1313,6 +1329,14 @@ function renderPedidoRows(rows, isDisabled) {
   updateKgTotals();
 }
 
+function getObraMaxKg() {
+  // Get the max kg for the currently selected obra
+  const obraVal = document.getElementById('fObraVal')?.value || document.getElementById('fObra')?.value;
+  if (!obraVal) return SLOT_MAX_KG;
+  const obra = getObraData(obraVal);
+  return obra?.maxKg || SLOT_MAX_KG;
+}
+
 function updateKgTotals() {
   let elab = 0, sold = 0;
   document.querySelectorAll('.pedido-row').forEach(row => {
@@ -1320,10 +1344,21 @@ function updateKgTotals() {
     elab += parseFloat(inputs[0]?.value||0) || 0;
     sold += parseFloat(inputs[1]?.value||0) || 0;
   });
+  const total = elab + sold;
+  const maxKg = getObraMaxKg();
   const te = document.getElementById('totalElab');
   const ts = document.getElementById('totalSold');
+  const totalsEl = document.getElementById('kgTotals');
   if (te) te.textContent = elab.toLocaleString('es-ES') + ' kg';
   if (ts) ts.textContent = sold.toLocaleString('es-ES') + ' kg';
+  // Show warning if total exceeds slot max
+  if (totalsEl) {
+    const over = total > maxKg;
+    totalsEl.style.color = over ? 'var(--red)' : '';
+    const warn = document.getElementById('kgOverWarn');
+    if (warn) warn.style.display = over ? 'block' : 'none';
+    if (warn) warn.textContent = `⚠️ Supera el máximo por slot: ${total.toLocaleString('es-ES')} kg / ${maxKg.toLocaleString('es-ES')} kg`;
+  }
   // Update hidden fields
   const hElab = document.getElementById('fKgElab');
   const hSold = document.getElementById('fKgSold');
@@ -1465,6 +1500,56 @@ function openSlot(ds, slot) {
   // ── Main fields ───────────────────────────────────────────
   document.getElementById('mainFields').style.display = 'block';
   setFieldsDisabled(!canEditFull);
+  // Tecnicos can change date only if estado is planificado and they are the owner
+  const canChangeDate = isAdm || (isTec && isOwner && (p.estado === 'planificado' || !p.estado));
+  const fechaDisplayEl = document.getElementById('fFechaDisplay');
+  const fechaInputEl   = document.getElementById('fFecha');
+  if (canChangeDate && !isTaller) {
+    // Show editable date field
+    if (fechaDisplayEl) {
+      fechaDisplayEl.style.display = 'block';
+      fechaDisplayEl.style.background = 'var(--surface2)';
+      fechaDisplayEl.style.border = '1px solid var(--border)';
+      fechaDisplayEl.style.borderRadius = 'var(--r)';
+      fechaDisplayEl.style.padding = '8px 11px';
+      fechaDisplayEl.style.fontFamily = "'JetBrains Mono',monospace";
+      fechaDisplayEl.style.fontWeight = '700';
+    }
+    // Replace display div with actual date input
+    if (fechaInputEl) {
+      fechaInputEl.type = 'date';
+      fechaInputEl.style.display = 'block';
+      fechaInputEl.style.width = '100%';
+      fechaInputEl.style.background = 'var(--surface2)';
+      fechaInputEl.style.border = '1px solid var(--border)';
+      fechaInputEl.style.borderRadius = 'var(--r)';
+      fechaInputEl.style.color = 'var(--text)';
+      fechaInputEl.style.padding = '8px 11px';
+      fechaInputEl.style.fontFamily = "'Inter',sans-serif";
+      fechaInputEl.style.fontSize = '13px';
+      fechaInputEl.disabled = false;
+      fechaInputEl.value = editDateStr;
+      if (fechaDisplayEl) fechaDisplayEl.style.display = 'none';
+    }
+  } else {
+    // Hide date field for non-admin/non-planificado
+    if (fechaDisplayEl) fechaDisplayEl.style.display = 'none';
+    if (fechaInputEl) { fechaInputEl.type = 'hidden'; fechaInputEl.style.display = 'none'; fechaInputEl.value = editDateStr; }
+  }
+  // Transportista and carga: only admin and taller can edit
+  // Tecnicos (even owners) cannot change transportista/carga
+  if (isTaller) {
+    ['fTransp','fCarga'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) { el.disabled = false; el.style.opacity = '1'; }
+    });
+  } else if (!isAdm) {
+    // tecnico owner: re-disable transp and carga
+    ['fTransp','fCarga'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) { el.disabled = true; el.style.opacity = '0.5'; }
+    });
+  }
 
   // ── Estado buttons (always visible, enabled per role) ─────
   document.getElementById('fgEstado').style.display = 'block';
@@ -1479,7 +1564,8 @@ function openSlot(ds, slot) {
   // ── Buttons ───────────────────────────────────────────────
   document.getElementById('btnDel').style.display            = isAdm ? 'inline-flex' : 'none';
   document.getElementById('btnCambiarPlanta').style.display  = isAdm ? 'inline-flex' : 'none';
-  document.getElementById('btnSave').style.display           = canEditFull ? 'inline-flex' : 'none';
+  document.getElementById('btnSave').style.display           = (canEditFull || isTaller) ? 'inline-flex' : 'none';
+  document.getElementById('btnSave').textContent = 'Guardar';
   document.getElementById('btnSaveObs').style.display        = 'inline-flex';
   document.getElementById('btnSaveOT').style.display         = canOT ? 'inline-flex' : 'none';
 
@@ -1541,7 +1627,7 @@ function fillForm(p, disabled) {
 }
 
 function setFieldsDisabled(d) {
-  ['fObra','fKgElab','fKgSold','fTransp','fCarga','fNotas'].forEach(id => {
+  ['fObra','fKgElab','fKgSold','fTransp','fCarga','fNotas','fOrden'].forEach(id => {
     const el=document.getElementById(id); if(el){el.disabled=d; el.style.opacity=d?.55:1;}
   });
   const addBtn=document.getElementById('btnAddPedido'); if(addBtn){addBtn.disabled=d;addBtn.style.opacity=d?.4:1;}
@@ -1567,6 +1653,13 @@ async function savePedido() {
     return;
   }
   document.getElementById('pedidoValidMsg').style.display = 'none';
+  // Check slot weight limit
+  const _totalKg = pedidoRows.reduce((s,r) => s+(parseFloat(r.kgElab)||0)+(parseFloat(r.kgSold)||0), 0);
+  const _maxKg   = getObraMaxKg();
+  if (_totalKg > _maxKg && userRole !== 'admin') {
+    toast(`❌ El peso total (${_totalKg.toLocaleString('es-ES')} kg) supera el máximo permitido para este slot (${_maxKg.toLocaleString('es-ES')} kg).`, 'err');
+    return;
+  }
   const obra = document.getElementById('fObraVal').value.trim();
   const obraInput = document.getElementById('fObra').value.trim();
   if (!obra || !obraInput) {
@@ -1577,19 +1670,40 @@ async function savePedido() {
   const obraValidated = obra;
 
   const obraData = getObraData(obraValidated);
-  const fecha    = editDateStr; // always use the slot's date
+  const fecha    = document.getElementById('fFecha')?.value || editDateStr; // use input or slot date
   const kgElab   = document.getElementById('fKgElab').value;
   const kgSold   = document.getElementById('fKgSold').value;
 
-  // Date changes only via drag & drop — no manual date change in form
+  // Tecnicos can change date if estado is planificado (moves pedido to new day)
+  const currentPedido = pedidos[editKey];
+  const fechaInput = document.getElementById('fFecha');
+  const fechaValue = document.getElementById('fFecha')?.value || editDateStr;
+  // editDateStr may have been updated by suggestDate
+  const originalDateStr = editKey ? editKey.split('__')[0] : editDateStr;
   let newKey = null;
+  if (!editIsNew && fechaValue && fechaValue !== originalDateStr) {
+    if (userRole === 'admin' || (userRole === 'tecnico' && currentPedido?.author === currentUser && (!currentPedido?.estado || currentPedido?.estado === 'planificado'))) {
+      newKey = fechaValue + '__0'; // server finds next available slot
+    } else if (editIsNew) {
+      // New pedido going to suggested date - always allowed if capacity ok
+      newKey = null; // editKey already has the original slot, new date handled via fecha
+    }
+  }
 
   // Compute totals from pedido rows
   const totalKgElab = pedidoRows.reduce((s,r) => s + (parseFloat(r.kgElab)||0), 0);
   const totalKgSold = pedidoRows.reduce((s,r) => s + (parseFloat(r.kgSold)||0), 0);
 
-  const data = {
-    pedido:        pedidoRows[0]?.num || '',  // backward compat
+  // Taller: only send transportista/carga update
+  const isTallerSave = userRole === 'taller' && !editIsNew;
+  const data = isTallerSave ? {
+    editType:      'transporte',
+    transportista: document.getElementById('fTransp').value,
+    carga:         document.getElementById('fCarga').value,
+    author:        currentUser,
+    role:          userRole,
+  } : {
+    pedido:        pedidoRows[0]?.num || '',
     pedidos:       pedidoRows,
     obra,
     cliente:       obraData?.cliente||'',
@@ -1600,13 +1714,18 @@ async function savePedido() {
     transportista: document.getElementById('fTransp').value,
     carga:         document.getElementById('fCarga').value,
     notas:         document.getElementById('fNotas').value.trim(),
+    // Note: fTransp and fCarga are disabled for tecnicos so their values
+    // come from fillForm (existing values) — not user input
     orden:         document.getElementById('fOrden').value.trim().toUpperCase(),
     author:        currentUser,
     role:          userRole,
     newKey,
   };
 
-  const res = await api('/api/pedidos','POST',{ planta:currentPlanta, key:editKey, data });
+  const res = await api('/api/pedidos','POST',{ 
+    planta:currentPlanta, key:editKey, data,
+    forceOverCapacity: window._forceAlternativeDay || false
+  });
 
   if (res.error === 'capacity') {
     // Tecnico blocked
@@ -1618,7 +1737,7 @@ async function savePedido() {
           ${res.elaborado?.over?`Elaborado: ${(res.elaborado.new||0).toLocaleString('es-ES')} / ${(res.elaborado.max||0).toLocaleString('es-ES')} kg<br>`:''}
           ${res.soldado?.over?`Soldado: ${(res.soldado.new||0).toLocaleString('es-ES')} / ${(res.soldado.max||0).toLocaleString('es-ES')} kg<br>`:''}
           <strong>Días disponibles:</strong>
-          ${available.length ? `<div class="cap-available">${available.map(d=>`<button class="cap-day-btn" onclick="suggestDate('${d}')">${fmtH(d)}</button>`).join('')}</div>` : 'Ninguno en los próximos 7 días — contacta con un administrador.'}
+          ${available.length ? `<div class="cap-available">${available.map(d=>`<button class="cap-day-btn" onclick="suggestDate('${d}')">📅 Guardar en ${fmtH(d)}</button>`).join('')}</div>` : 'Ninguno en los próximos 7 días — contacta con un administrador.'}
         </div>
       </div>`;
     document.getElementById('mCapNotice').style.display = 'block';
@@ -1646,10 +1765,16 @@ async function savePedido() {
   }
 }
 
-function suggestDate(ds) {
+async function suggestDate(ds) {
   document.getElementById('fFecha').value = ds;
   document.getElementById('mCapNotice').style.display = 'none';
-  toast(`📅 Fecha sugerida: ${fmtH(ds)}`, 'ok');
+  // Update both editKey and editDateStr to the new date
+  editKey = `${ds}__0`;
+  editDateStr = ds;
+  window._forceAlternativeDay = true; // skip capacity check — server already verified
+  toast(`📅 Guardando en ${fmtH(ds)}...`, 'ok');
+  await savePedido();
+  window._forceAlternativeDay = false;
 }
 
 async function saveOrden() {
@@ -1843,6 +1968,13 @@ function renderObrasList() {
       <div style="display:flex;gap:6px;align-items:center">
         <input class="fi" value="${(o.label||'').replace(/"/g,'&quot;')}" style="font-size:11px;padding:4px 8px;flex:1;font-weight:600"
           onchange="editObra(${config.obras.indexOf(o)},'label',this.value)">
+        <div style="display:flex;align-items:center;gap:4px;flex-shrink:0">
+          <span style="font-size:10px;color:var(--muted2);white-space:nowrap">Máx.kg:</span>
+          <input class="fi" type="number" min="0" value="${o.maxKg||24000}" 
+            style="font-size:11px;padding:4px 6px;width:80px;color:var(--red);font-weight:700;font-family:'JetBrains Mono',monospace"
+            onchange="editObra(${config.obras.indexOf(o)},'maxKg',parseInt(this.value)||24000)"
+            title="Peso máximo por slot para esta obra (kg)">
+        </div>
         <button class="btn danger" style="padding:3px 8px;font-size:11px;flex-shrink:0" onclick="removeObra('${(o.label||'').replace(/'/g,"\\'")}')">✕</button>
       </div>
       <input class="fi" value="${(o.direccion||'').replace(/"/g,'&quot;')}" placeholder="Dirección..." style="font-size:11px;padding:4px 8px;color:var(--muted2)"
@@ -1900,13 +2032,11 @@ async function editTransp(idx, newName) {
 async function editObra(idx, field, value) {
   if (idx < 0 || idx >= (config.obras||[]).length) return;
   const obras = [...(config.obras||[])];
-  obras[idx] = {...obras[idx], [field]: value.trim()};
-  // Rebuild label if codigo or nombre changed
-  if (field === 'label') {
-    obras[idx].label = value.trim();
-  }
+  const val = field === 'maxKg' ? (parseInt(value)||24000) : (typeof value === 'string' ? value.trim() : value);
+  obras[idx] = {...obras[idx], [field]: val};
   await saveConfig({obras});
-  // Don't show toast on every keystroke - silent save
+  // Refresh form so new maxKg takes effect
+  refreshFormLists();
 }
 
 async function addUser(){
@@ -1948,7 +2078,7 @@ async function addObra(){
   const dir=document.getElementById('nuObraDir').value.trim();
   if(!nom){alert('Introduce el nombre de la obra.');return;}
   const label=(cod?cod+' ':'')+nom;
-  const obras=[...(config.obras||[]),{codigo:cod,nombre:nom,label,direccion:dir,cliente:'',provincia:''}];
+  const obras=[...(config.obras||[]),{codigo:cod,nombre:nom,label,direccion:dir,cliente:'',provincia:'',maxKg:24000}];
   if(await saveConfig({obras})){['nuObraCod','nuObraNom','nuObraDir'].forEach(id=>document.getElementById(id).value='');toast('✓ Obra añadida');refreshFormLists();}
 }
 async function removeObra(label){
